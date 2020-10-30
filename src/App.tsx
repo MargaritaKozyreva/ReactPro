@@ -1,6 +1,6 @@
 import React from 'react';
 import cn from 'classnames';
-import s from './App.css'
+import s from './App.modules.scss';
 import './custom.css'
 
 const App = () => {
