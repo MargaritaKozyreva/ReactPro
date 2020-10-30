@@ -43,5 +43,4 @@ interface MyArrayType<T> {
 }
 
 const myArray: MyArrayType<number> = [1, 2, 3];
-
 myArray.reduce((acc, current) => acc += current)  // Почему reduce не ругается на отсутсвие index?
