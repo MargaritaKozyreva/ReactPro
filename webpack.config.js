@@ -5,10 +5,10 @@ const NODE_ENV = process.env.NODE_ENV;
 
 module.exports = {
   resolve: {
-    extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.css', '.scss'],
+    extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.css', '.scss', '.d.ts'],
   },
   mode: NODE_ENV ? NODE_ENV : 'development',
-  entry: path.resolve(__dirname, 'src/index.ts'),
+  entry: path.resolve(__dirname, 'src/index.tsx'),
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js',
@@ -41,6 +41,21 @@ module.exports = {
           },
           'sass-loader',
         ],
+      },
+      {
+        test: /\.(png|jp(e*)g|svg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
+      },
+      {
+        test: /\.(ttf|eot|woff|woff2)$/,
+        loader: 'file-loader',
+        options: {
+          name: './@fonts/[name].[ext]',
+        },
       },
     ],
   },

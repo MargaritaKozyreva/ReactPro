@@ -1,0 +1,14 @@
+@import '../@scss/constants.scss';
+
+.app {
+  position: relative;
+  height: 100%;
+}
+
+.wrapper {
+  left: 0;
+  right: 0;
+  position: absolute;
+  height: 100%;
+  margin: $app-margin;
+}

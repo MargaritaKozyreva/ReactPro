@@ -15,7 +15,8 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-unused-vars': 'error',
     'no-console': 'error',
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx', '.ts', '.js'] }],
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx', '.ts', '.js', '.d.ts'] }],
     'import/extensions': [
       'error',
       'ignorePackages',
