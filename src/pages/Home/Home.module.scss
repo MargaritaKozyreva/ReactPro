@@ -1,0 +1,12 @@
+@import '../../@scss/variables.scss';
+
+.root {
+  min-height: 100vh;
+  background: linear-gradient(180deg, $third 0%, $primary 100%);
+}
+
+.wrap {
+  margin: 0 $app-margin;
+  position: relative;
+  height: 100vh;
+}

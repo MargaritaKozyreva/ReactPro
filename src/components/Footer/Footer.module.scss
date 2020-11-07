@@ -1,4 +1,6 @@
-.footer {
+@import '../../@scss/variables.scss';
+
+.root {
   position: absolute;
   display: flex;
   justify-content: space-between;

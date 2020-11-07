@@ -1,0 +1,33 @@
+@import '../../@scss/variables.scss';
+
+.root {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: $third;
+  box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);
+  height: $header-height;
+}
+
+.wrap {
+  margin: 0 $app-margin;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+}
+
+.menuWrap {
+  display: flex;
+  align-items: center;
+  max-width: 658px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 158px;
+  height: 63px;
+}

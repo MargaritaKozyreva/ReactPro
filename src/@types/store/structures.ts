@@ -1,8 +1,11 @@
 export interface TabProps {
-  title: string;
-  isActive: Boolean;
+  id: number;
+  value: string;
+  link: string;
+  activePage: string;
 }
 
 export interface HeaderProps {
+  activePage: string;
   tabs: Array<TabProps>;
 }

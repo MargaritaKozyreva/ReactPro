@@ -1,8 +1,9 @@
-@import '../@scss/constants.scss';
+@import '../../@scss/variables.scss';
 
-.content {
+.root {
   position: absolute;
   left: 0;
   right: 0;
   top: $header-height + $content-padding-top;
+  min-height: 200px;
 }

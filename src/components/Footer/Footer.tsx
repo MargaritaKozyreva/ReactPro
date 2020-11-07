@@ -3,7 +3,7 @@ import struct from './Footer.module.scss';
 
 const Footer: React.FC = () => {
   return (
-    <div className={struct.footer}>
+    <div className={struct.root}>
       <div>
         <p>
           Make with{' '}

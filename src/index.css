@@ -1,12 +1,16 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 @font-face {
   font-family: 'Karla';
   src: url('./@fonts/Karla-Regular.ttf');
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 html,
@@ -16,13 +20,9 @@ body,
 }
 
 body {
+  position: relative;
   font-family: 'Karla';
   color: #000000;
   font-style: normal;
   font-weight: normal;
-}
-
-body {
-  position: relative;
-  background: linear-gradient(180deg, #f5db13 0%, #f2b807 100%);
 }
