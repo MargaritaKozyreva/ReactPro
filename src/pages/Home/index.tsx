@@ -1,38 +1,34 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-import Header from '../../components/Header';
 import Content from '../../components/Content';
-import Footer from '../../components/Footer';
-import getData from '../../components/Services/mock-service';
-
 import style from './Home.module.scss';
-import * as s from '../../@types/store';
 
-const HomePage: React.FC = (): JSX.Element => {
-  const initialState = {
-    activePage: 'Home',
-    tabs: [],
-  };
+import Button from '../../components/Button';
+import Heading from '../../components/Heading';
+import Parallax from '../../components/Parallax';
 
-  const [state, setState] = useState<s.StoreState>(initialState);
+type HomeProps = HTMLAttributeProps;
 
-  useEffect(() => {
-    getData().then((data) =>
-      setState((prevState) => {
-        return {
-          ...prevState,
-          tabs: data.tabs,
-        };
-      }),
-    );
-  }, []);
+interface HTMLAttributeProps {
+  [key: string]: any;
+  setPage: () => void;
+}
 
+const HomePage: React.FC<HomeProps> = (props): JSX.Element => {
+  const { setPage } = props;
   return (
     <div className={style.root}>
-      <Header {...state} />
-      <div className={style.wrap}>
-        <Content />
-        <Footer />
+      <Content>
+        <Heading design="default" size="normal">
+          <b>Find</b> all your favotite <b>Pokemon</b>
+        </Heading>
+        <p>You can know the type of Pokemon, its strengths, disadvantages and abilities</p>
+        <Button onClick={setPage} design="success" size="normal">
+          See pokemons
+        </Button>
+      </Content>
+      <div className={style.contentParallax}>
+        <Parallax />
       </div>
     </div>
   );

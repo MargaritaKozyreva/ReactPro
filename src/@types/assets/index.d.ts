@@ -12,7 +12,7 @@ declare module '*.jpg' {
 }
 
 declare module '*.png' {
-  const content: string;
+  const content: any;
   export default content;
 }
 

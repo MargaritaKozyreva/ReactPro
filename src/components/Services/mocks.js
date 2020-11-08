@@ -2,22 +2,22 @@ const tabs = [
   {
     id: 1,
     value: 'Home',
-    link: '#',
+    link: '/home',
   },
   {
     id: 2,
-    value: 'Pokédex',
-    link: '#',
+    value: 'Pokedex',
+    link: '/pokedex',
   },
   {
     id: 3,
     value: 'Legendaries',
-    link: '#',
+    link: '/legendaries',
   },
   {
     id: 4,
     value: 'Documentation',
-    link: '#',
+    link: '/documentation',
   },
 ];
 

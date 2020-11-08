@@ -5,7 +5,7 @@ import { ReactComponent as Logo } from './assets/Logo.svg';
 import * as struct from '../../@types/store/structures';
 
 const Header: React.FC<struct.HeaderProps> = (props: struct.HeaderProps): JSX.Element => {
-  const { tabs, activePage } = props;
+  const { tabs, activePage, setPageInStore } = props;
 
   return (
     <div className={style.root}>
@@ -16,7 +16,7 @@ const Header: React.FC<struct.HeaderProps> = (props: struct.HeaderProps): JSX.El
 
         <div className={style.menuWrap}>
           {tabs.map((tab, i) => (
-            <Tab key={tab.id} {...tab} activePage={activePage} />
+            <Tab key={tab.id} {...tab} activePage={activePage} setPageInStore={setPageInStore} />
           ))}
         </div>
       </div>

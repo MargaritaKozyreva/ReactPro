@@ -9,10 +9,11 @@
   background: $third;
   box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);
   height: $header-height;
+  z-index: 1;
 }
 
 .wrap {
-  margin: 0 $app-margin;
+  padding: 0 $app-margin;
   display: flex;
   align-items: center;
   justify-content: space-between;

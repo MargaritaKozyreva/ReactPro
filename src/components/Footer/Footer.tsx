@@ -1,9 +1,9 @@
 import React from 'react';
-import struct from './Footer.module.scss';
+import style from './Footer.module.scss';
 
 const Footer: React.FC = () => {
   return (
-    <div className={struct.root}>
+    <div className={style.root}>
       <div>
         <p>
           Make with{' '}

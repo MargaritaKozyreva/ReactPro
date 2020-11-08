@@ -1,0 +1,19 @@
+@import '../../@scss/variables.scss';
+
+.root {
+  border: none;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 9px;
+  cursor: pointer;
+  outline: 0;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
