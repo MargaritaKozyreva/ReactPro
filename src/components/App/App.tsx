@@ -54,7 +54,7 @@ const App: React.FC = (): JSX.Element => {
               <Route path="/" exact render={() => <HomePage setPage={() => setPage('Pokedex', './pokedex')} />} />
               <Route path="/home" render={() => <HomePage setPage={() => setPage('Pokedex', './pokedex')} />} />
               <Route path="/pokedex" render={() => <PokedexPage />} />
-              <Route render={() => EmptyPage} />
+              <Route component={EmptyPage} />
               <Footer />
             </>
           );
