@@ -4,32 +4,41 @@ import Content from '../../components/Content';
 import style from './Home.module.scss';
 
 import Button from '../../components/Button';
-import Heading from '../../components/Heading';
+import Text from '../../components/Text';
 import Parallax from '../../components/Parallax';
+import { navigate } from 'hookrouter';
 
 type HomeProps = HTMLAttributeProps;
 
 interface HTMLAttributeProps {
   [key: string]: any;
-  setPage: () => void;
 }
 
 const HomePage: React.FC<HomeProps> = (props): JSX.Element => {
-  const { setPage } = props;
   return (
     <div className={style.root}>
       <Content>
-        <Heading design="default" size="normal">
-          <b>Find</b> all your favotite <b>Pokemon</b>
-        </Heading>
-        <p>You can know the type of Pokemon, its strengths, disadvantages and abilities</p>
-        <Button onClick={setPage} design="success" size="normal">
+        <Text type="span" size="xxl">
+          <b>Find</b> all your
+          <br />
+          favotite
+          <br />
+          <b>Pokemon</b>
+        </Text>
+        <Text type="p" size="l">
+          You can know the type of Pokemon,
+          <br />
+          its strengths, disadvantages and
+          <br />
+          abilities
+        </Text>
+        <Button design="success" size="m" onClick={() => navigate('./pokedex')}>
           See pokemons
-        </Button>
+        </Button>{' '}
+        <div className={style.contentParallax}>
+          <Parallax />
+        </div>
       </Content>
-      <div className={style.contentParallax}>
-        <Parallax />
-      </div>
     </div>
   );
 };

@@ -1,20 +1,20 @@
 const ButtonsTheme = {
   design: {
-    accent: {
+    primary: {
       color: '#212121',
-      background: '#f2b807',
+      background: '#F2CB07'
     },
     success: {
       color: '#212121',
       background: '#73D677',
     },
-    primary: {
+    accent: {
       color: '#212121',
       background: '#07D6F2',
     },
   },
   size: {
-    small: {
+    xs: {
       height: '15.88px',
       fontSize: '12px',
       lineHeight: '14,06px',
@@ -25,7 +25,7 @@ const ButtonsTheme = {
         paddingBottom: '9px',
       },
     },
-    normal: {
+    m: {
       width: '231px',
       height: '66px',
       fontSize: '23px',

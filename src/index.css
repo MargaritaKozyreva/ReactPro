@@ -15,9 +15,15 @@ body {
 }
 
 body {
-  position: relative;
   font-family: 'Karla';
   color: #000000;
   font-style: normal;
   font-weight: normal;
+
+}
+
+#root{
+  position: relative;
+  height: 100vh;
+  width: 100%;
 }

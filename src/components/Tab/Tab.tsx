@@ -1,16 +1,20 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import * as struct from '../../@types/store/structures';
+import { A } from 'hookrouter';
 import style from './Tab.module.scss';
+import { IGeneralMenu } from '../../routes';
+import { usePath } from 'hookrouter';
 
-const Tab: React.FC<struct.TabProps> = (props: struct.TabProps): JSX.Element => {
-  const { value, link, activePage, setPageInStore } = props;
-  const linkStyle = activePage === value ? `${style.menuLink} ${style.activeLink}` : style.menuLink;
+
+const Tab: React.FC<IGeneralMenu> = (props): JSX.Element => {
+  const path = usePath();
+  
+  const { title, link } = props;
+  const linkStyle = path === link ? `${style.menuLink} ${style.activeLink}` : style.menuLink;
 
   return (
-    <Link to={link} className={linkStyle} onClick={() => setPageInStore(value, link)}>
-      {value}
-    </Link>
+    <A href={link} className={linkStyle}>
+      {title}
+    </A>
   );
 };
 

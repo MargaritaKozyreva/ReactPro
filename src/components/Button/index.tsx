@@ -9,16 +9,16 @@ type ButtonProps = Props & HTMLAttributeProps;
 interface Props {
   children?: React.ReactNode;
   design: 'primary' | 'success' | 'accent';
-  size?: 'normal' | 'small';
+  size?: 'xs' | 'm' ;
   isAbsoluteWidth?: boolean;
 }
 
 interface HTMLAttributeProps {
-  onClick: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 }
 
 const Button: React.FC<ButtonProps> = (props): JSX.Element => {
-  const { children, design = 'primary', size = 'normal', isAbsoluteWidth = false, onClick } = props;
+  const { children, design = 'primary', size = 'm', isAbsoluteWidth = false, onClick } = props;
 
   const buttonWidth = isAbsoluteWidth ? ButtonsTheme.isAbsoluteWidth : null;
   const buttonStyle = { ...ButtonsTheme.design[design], ...ButtonsTheme.size[size], ...buttonWidth };
@@ -32,7 +32,7 @@ const Button: React.FC<ButtonProps> = (props): JSX.Element => {
 
 Button.defaultProps = {
   design: 'primary',
-  size: 'normal',
+  size: 'm',
 };
 
 export default Radium(Button);

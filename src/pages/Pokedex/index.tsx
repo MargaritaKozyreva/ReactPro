@@ -1,7 +1,8 @@
 import React from 'react';
 import style from './Pokedex.module.scss';
 import Content from '../../components/Content';
-import Heading from '../../components/Heading';
+import Text from '../../components/Text';
+import PokemonContainer from './PokemonContainer';
 
 type PokedexProps = HTMLAttributeProps;
 
@@ -13,10 +14,10 @@ const PokedexPage: React.FC<PokedexProps> = (): JSX.Element => {
   return (
     <div className={style.root}>
       <Content>
-        <Heading design="default" size="normal">
-          800 <b>pokemons</b> for your to choose your favorite
-        </Heading>
-        <p>You can know the type of Pokemon, its strengths, disadvantages and abilities</p>
+        <Text type="p" size="xl" design="default" textAlign="center">
+          800 <b>Pokemons</b> for your to choose your favorite
+        </Text>
+        <PokemonContainer/>
       </Content>
     </div>
   );

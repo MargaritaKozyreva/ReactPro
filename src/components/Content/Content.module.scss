@@ -2,14 +2,14 @@
 
 .root {
   position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  min-height: 600px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .wrap {
   position: absolute;
-  top: $content-padding-top;
   padding: 0 $app-margin;
+  width: 100%;
+  top: 120px;
 }

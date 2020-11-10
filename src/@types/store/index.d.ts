@@ -1,6 +1,12 @@
 import * as struct from './structures';
 
 export interface StoreState {
-  activePage: string;
-  tabs: Array<struct.TabProps> | struct.TabProps[];
+  success: boolean,
+  isLoading: boolean,
+  isError: boolean,
+  data: {
+    pokemons: Array<struct.dataProps>
+  } | {},
 }
+
+

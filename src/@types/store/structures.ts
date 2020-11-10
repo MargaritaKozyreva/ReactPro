@@ -1,14 +1,23 @@
-export interface TabProps {
-  id: number;
-  value: string;
-  link: string;
-  activePage: string;
-  setPageInStore: (page: string, link: string) => void;
+interface statsProps {
+  hp: number,
+  attack: number,
+  defense: number,
+  'special-attack': number,
+  'special-defense': number,
+  speed: number,
 }
 
-export interface HeaderProps {
-  activePage: string;
-  tabs: Array<TabProps>;
-  push?: any;
-  setPageInStore: (page: string, link: string) => void;
+export interface dataProps {
+  name_clean: string,
+  abilities: Array<string>,
+  stats: statsProps,
+  types: Array<string>,
+  img: string,
+  name: string,
+  base_experience: number,
+  height: number,
+  id: number,
+  is_default: boolean,
+  order: number,
+  weight: number,
 }
