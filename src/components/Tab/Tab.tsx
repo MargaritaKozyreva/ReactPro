@@ -6,6 +6,7 @@ import { usePath } from 'hookrouter';
 
 
 const Tab: React.FC<IGeneralMenu> = (props): JSX.Element => {
+
   const path = usePath();
   
   const { title, link } = props;
@@ -18,4 +19,4 @@ const Tab: React.FC<IGeneralMenu> = (props): JSX.Element => {
   );
 };
 
-export default Tab;
+export default React.memo(Tab);

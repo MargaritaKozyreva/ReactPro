@@ -6,19 +6,16 @@ import * as s from '../../../@types/store/structures';
 import style from './PokemonList.module.scss';
 
 interface Props {
-  children?: React.ReactNode;
-  data: {
-    pokemons: Array<s.dataProps>;
-  };
+  pokemons: Array<s.dataProps>;
 }
 
 const PokemonList: React.FC<Props> = (props): JSX.Element => {
-  const { data } = props;
+  const { pokemons } = props;
   {
     return (
       <div className={style.root}>
-        {data.pokemons.map((pokemon) => (
-          <PokemonCard {...pokemon} />
+        {pokemons.map((pokemon) => (
+          <PokemonCard key={pokemon.id} {...pokemon} />
         ))}
       </div>
     );

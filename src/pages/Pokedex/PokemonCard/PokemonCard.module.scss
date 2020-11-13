@@ -68,7 +68,7 @@
 .pictureWrap {
     width: 232px;
     height: 100%;
-    background: linear-gradient(270deg, #B33327 0.15%, #D93E30 100%);
+    background: linear-gradient(270deg, #ececec 0.15%, #ececec 100%);
     position: absolute;
     right: 0;
     display: flex;
@@ -107,4 +107,32 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.bgPink {
+    background: linear-gradient(270deg, #F89EAE 0.15%, #F4B5C1 100%);
+}
+
+.bgGrass {
+    background: linear-gradient(270deg, #64D368 0.15%, #64D368 70.88%);
+}
+
+.bgFire {
+    background: linear-gradient(270deg, #B33327 0.15%, #D93E30 100%);
+}
+
+.bgWater {
+    background: linear-gradient(270deg, #5BC7FA 0.15%, #35BAFF 100%);
+}
+
+.bgElectric {
+    background: linear-gradient(270deg, #F2CB07 0.15%, #F2B807 100%);
+}
+
+.bgBug {
+    background: linear-gradient(270deg, #ff9638 0.15%, #b56722 100%);
+}
+
+.bgDefault{
+    background: linear-gradient(270deg, #ececec 0.15%, #ececec 100%);
 }

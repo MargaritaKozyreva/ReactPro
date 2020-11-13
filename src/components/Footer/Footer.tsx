@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
         <p>Ours Team</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

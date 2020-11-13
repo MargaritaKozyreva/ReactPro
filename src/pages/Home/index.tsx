@@ -8,6 +8,8 @@ import Text from '../../components/Text';
 import Parallax from '../../components/Parallax';
 import { navigate } from 'hookrouter';
 
+import { LinkEnum } from '../../routes'
+
 type HomeProps = HTMLAttributeProps;
 
 interface HTMLAttributeProps {
@@ -32,7 +34,7 @@ const HomePage: React.FC<HomeProps> = (props): JSX.Element => {
           <br />
           abilities
         </Text>
-        <Button design="success" size="m" onClick={() => navigate('./pokedex')}>
+        <Button design="success" size="m" onClick={() => navigate(LinkEnum.POKEDEX)}>
           See pokemons
         </Button>{' '}
         <div className={style.contentParallax}>

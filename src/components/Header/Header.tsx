@@ -24,4 +24,4 @@ const Header: React.FC = (): JSX.Element => {
   );
 };
 
-export default Header;
+export default React.memo(Header);

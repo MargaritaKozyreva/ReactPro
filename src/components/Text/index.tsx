@@ -11,7 +11,6 @@ interface Props {
   size?: 'm' | 'l' | 'xl' | 'xxl';
   design?: 'primary' | 'default';
   textTransform?: 'capitalize' | 'lowercase' | 'uppercase' | 'none' | 'inherit';
-  textAlign?: 'left'|'center'|'right'
 }
 
 interface HTMLAttributeProps {
@@ -23,8 +22,7 @@ const Text: React.FC<TextProps> = (props): JSX.Element => {
   const TextStyle = {
     ...ParagraphTheme.design[design],
     ...ParagraphTheme.size[size],
-    textTransform: props.textTransform,
-    textAlign: props.textAlign
+    textTransform: props.textTransform
   };
 
   const T: React.FC<TextProps> = ({ children, ...props }) => {

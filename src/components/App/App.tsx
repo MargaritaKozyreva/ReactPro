@@ -3,22 +3,21 @@ import Header from '../Header';
 import Footer from '../Footer';
 
 import { useRoutes, useRedirect } from 'hookrouter';
-import routes from '../../routes';
-import ErrorPage from '../../pages/Error';
+import routes, {LinkEnum} from '../../routes';
+import EmptyPage from '../../pages/Empty';
 
 const App: React.FC = (): JSX.Element => {
   const routeResult = useRoutes(routes);
-  useRedirect('/', '/home');
+  useRedirect('/', LinkEnum.HOME);
 
-  const MainPage = (
+  return routeResult ? (
     <>
       <Header />
       {routeResult}
       <Footer />
     </>
+  ) : (
+    <EmptyPage />
   );
-
-  const content = routeResult ? MainPage : <ErrorPage />;
-  return content;
 };
 export default App;

@@ -1,43 +1,23 @@
-import React, { useState, useEffect } from 'react';
-import getData from '../../../components/Services/mock-service';
+import React from 'react';
 import PokemonList from '../PokemonList';
-
-import * as s from '../../../@types/store'
-
-interface Props {
-  success: boolean;
-  data: any;
-  isLoading: boolean;
-  isError: boolean;
-}
+import Text from '../../../components/Text';
+import usePokemons from '../../../components/utils/src/hookHelpers/usePokemons';
 
 const PokemonContainer: React.FC = (): JSX.Element => {
+  const { isLoading, isError, data } = usePokemons(30);
 
-  const initialState: s.StoreState = {
-    success: false,
-    isLoading: true,
-    isError: false,
-    data: {},
-  };
-
-  const [state, setState] = useState<Props>(initialState);
-
-  useEffect(() => {
-    getData().then((data) =>
-      setState(() => {
-        return {
-          success: true,
-          isLoading: false,
-          isError: false,
-          data,
-        };
-      }),
-    );
-  }, []);
-
-  const { success, isLoading, isError, data } = state;
-
-  return !isLoading ? <PokemonList {...state} /> : <div>..loading</div>;
+  return isLoading ? (
+    <div>Loading...</div>
+  ) : isError ? (
+    <div>Something has wrong...</div>
+  ) : (
+    <div>
+      <Text type="p" size="xl" design="default">
+        {data.total} <b>Pokemons</b> for your to choose your favorite
+      </Text>
+      <PokemonList {...data} />
+    </div>
+  );
 };
 
 export default PokemonContainer;

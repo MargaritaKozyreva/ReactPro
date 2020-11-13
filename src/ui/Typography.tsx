@@ -23,5 +23,5 @@ export const ParagraphTheme = {
     l: { fontSize: '32px' },
     xl: { fontSize: '48px' },
     xxl: { fontSize: '72px' },
-  }
-}
+  },
+};

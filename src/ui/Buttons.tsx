@@ -2,7 +2,7 @@ const ButtonsTheme = {
   design: {
     primary: {
       color: '#212121',
-      background: '#F2CB07'
+      background: '#F2CB07',
     },
     success: {
       color: '#212121',
@@ -40,6 +40,18 @@ const ButtonsTheme = {
   isAbsoluteWidth: {
     width: '100%',
   },
+
+  // position: {
+  //   center: {
+  //     textAlign: 'center',
+  //   },
+  //   right: {
+  //     textAlign: 'right',
+  //   },
+  //   left: {
+  //     textAlign: 'left',
+  //   },
+  // },
 };
 
 export default ButtonsTheme;
