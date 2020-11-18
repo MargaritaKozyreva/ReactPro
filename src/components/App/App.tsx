@@ -5,8 +5,10 @@ import Footer from '../Footer';
 import { useRoutes, useRedirect } from 'hookrouter';
 import routes, {LinkEnum} from '../../routes';
 import EmptyPage from '../../pages/Empty';
+import req from '../utils/src/request';
 
 const App: React.FC = (): JSX.Element => {
+
   const routeResult = useRoutes(routes);
   useRedirect('/', LinkEnum.HOME);
 

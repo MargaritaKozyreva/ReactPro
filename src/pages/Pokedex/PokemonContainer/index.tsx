@@ -1,10 +1,25 @@
-import React from 'react';
+import React, { useState, useMemo, ChangeEvent } from 'react';
 import PokemonList from '../PokemonList';
+import Input from '../../../components/Input';
 import Text from '../../../components/Text';
-import usePokemons from '../../../components/utils/src/hookHelpers/usePokemons';
+import useData from '../../../components/utils/src/hookHelpers/useData/getData';
+
+import style from './PokemonContainer.module.scss';
+import s from '../../../@types/store';
 
 const PokemonContainer: React.FC = (): JSX.Element => {
-  const { isLoading, isError, data } = usePokemons(30);
+  const [searchValue, setSearchValue] = useState<string>('');
+  const [query, setQuery] = useState({});
+
+  const { isLoading, isError, data }: s.StoreState = useData('getPokemons', query, [searchValue]);
+
+  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>): void => {
+    setSearchValue(event.target.value);
+    setQuery((s) => ({
+      ...s,
+      name: event.target.value,
+    }));
+  };
 
   return isLoading ? (
     <div>Loading...</div>
@@ -12,9 +27,16 @@ const PokemonContainer: React.FC = (): JSX.Element => {
     <div>Something has wrong...</div>
   ) : (
     <div>
-      <Text type="p" size="xl" design="default">
-        {data.total} <b>Pokemons</b> for your to choose your favorite
-      </Text>
+      <div className={style.textBox}>
+        <Text type="p" size="xl" design="default">
+          {data.total} <b>Pokemons</b> for your to choose your favorite
+        </Text>
+      </div>
+
+      <div className={style.inputBox}>
+        <Input value={searchValue} handleOnChange={handleSearchChange} />
+      </div>
+
       <PokemonList {...data} />
     </div>
   );
