@@ -1,4 +1,4 @@
-const pokemonsData = {
+const pokemonData = {
   name_clean: 'bulbasaur',
   abilities: ['overgrow', 'chlorophyll'],
   stats: { hp: 45, attack: 49, defense: 49, 'special-attack': 65, 'special-defense': 65, speed: 45 },
@@ -13,7 +13,7 @@ const pokemonsData = {
   weight: 69,
 };
 
-type PokemonRequest = typeof pokemonsData;
+export type PokemonRequest = typeof pokemonData;
 
 export interface IPokemons {
   total: number;

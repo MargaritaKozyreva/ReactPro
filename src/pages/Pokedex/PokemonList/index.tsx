@@ -5,6 +5,7 @@ import { IPokemons } from '../../../components/interface/pokemons';
 
 const PokemonList: React.FC<IPokemons> = (props): JSX.Element => {
   const { pokemons } = props;
+
   {
     return (
       <div className={style.root}>

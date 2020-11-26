@@ -2,10 +2,12 @@ import React, { useState, ChangeEvent } from 'react';
 import PokemonList from '../PokemonList';
 import Input from '../../../components/Input';
 import Text from '../../../components/Text';
-import useData from '../../../components/utils/src/hookHelpers/useData/getData';
+import { IPokemons } from '../../../components/interface/pokemons';
+
+import useData from '../../../components/utils/src/hookHelpers/useData/useData';
+import useDebounce from '../../../components/utils/src/hookHelpers/useDebounce/useDebounce';
 
 import style from './PokemonContainer.module.scss';
-import { IPokemons } from '../../../components/interface/pokemons';
 
 interface IQuery {
   name?: string;
@@ -15,7 +17,9 @@ const PokemonContainer: React.FC = (): JSX.Element => {
   const [searchValue, setSearchValue] = useState<string>('');
   const [query, setQuery] = useState<IQuery>({});
 
-  const { isLoading, isError, data } = useData<IPokemons>('getPokemons', query, [searchValue]);
+  const debouncedValue = useDebounce(searchValue, 500)
+
+  const { isLoading, isError, data } = useData<IPokemons>('getPokemons', query, [debouncedValue]);
 
   const handleSearchChange = (event: ChangeEvent<HTMLInputElement>): void => {
     setSearchValue(event.target.value);

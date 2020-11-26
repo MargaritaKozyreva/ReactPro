@@ -1,5 +1,4 @@
 export const setBgCardColor = (arr: String[]) => {
-
   for (let i = 0; i <= arr.length - 1; i++) {
     switch (arr[i]) {
       case 'grass':
@@ -22,4 +21,8 @@ export const setBgCardColor = (arr: String[]) => {
   }
 
   return 'bgDefault';
+};
+
+export const toCapitalizeFirstLetter = (str: string) => {
+  return str.charAt(0).toUpperCase() + str.slice(1);
 };
