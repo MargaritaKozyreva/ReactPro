@@ -1,15 +1,9 @@
 import React from 'react';
 import PokemonCard from '../PokemonCard';
-
-import * as s from '../../../@types/store/structures';
-
 import style from './PokemonList.module.scss';
+import { IPokemons } from '../../../components/interface/pokemons';
 
-interface Props {
-  pokemons: Array<s.dataProps>;
-}
-
-const PokemonList: React.FC<Props> = (props): JSX.Element => {
+const PokemonList: React.FC<IPokemons> = (props): JSX.Element => {
   const { pokemons } = props;
   {
     return (
