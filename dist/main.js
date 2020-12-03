@@ -878,7 +878,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(_fonts_Karla_Regular_ttf__WEBPACK_IMPORTED_MODULE_3__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, "* {\r\n  box-sizing: border-box;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Karla';\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\nhtml,\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n  overflow-x: hidden;\r\n}\r\n\r\nbody {\r\n  position: relative;\r\n  font-family: 'Karla';\r\n  color: #000000;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n  overflow-y: hidden;\r\n}\r\n", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;AACxB;;AAEA;EACE,oBAAoB;EACpB,4CAAsC;AACxC;;AAEA;;EAEE,SAAS;EACT,UAAU;EACV,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,oBAAoB;EACpB,cAAc;EACd,kBAAkB;EAClB,mBAAmB;EACnB,kBAAkB;AACpB","sourcesContent":["* {\r\n  box-sizing: border-box;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Karla';\r\n  src: url('./@fonts/Karla-Regular.ttf');\r\n}\r\n\r\nhtml,\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n  overflow-x: hidden;\r\n}\r\n\r\nbody {\r\n  position: relative;\r\n  font-family: 'Karla';\r\n  color: #000000;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n  overflow-y: hidden;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, "* {\r\n  box-sizing: border-box;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Karla';\r\n  src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\nhtml,\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n  overflow-x: hidden;\r\n}\r\n\r\nbody {\r\n  font-family: 'Karla';\r\n  color: #000000;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n\r\n}\r\n\r\n#root{\r\n  position: relative;\r\n  height: 100vh;\r\n  width: 100%;\r\n}\r\n", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA;EACE,sBAAsB;AACxB;;AAEA;EACE,oBAAoB;EACpB,4CAAsC;AACxC;;AAEA;;EAEE,SAAS;EACT,UAAU;EACV,kBAAkB;AACpB;;AAEA;EACE,oBAAoB;EACpB,cAAc;EACd,kBAAkB;EAClB,mBAAmB;;AAErB;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,WAAW;AACb","sourcesContent":["* {\r\n  box-sizing: border-box;\r\n}\r\n\r\n@font-face {\r\n  font-family: 'Karla';\r\n  src: url('./@fonts/Karla-Regular.ttf');\r\n}\r\n\r\nhtml,\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n  overflow-x: hidden;\r\n}\r\n\r\nbody {\r\n  font-family: 'Karla';\r\n  color: #000000;\r\n  font-style: normal;\r\n  font-weight: normal;\r\n\r\n}\r\n\r\n#root{\r\n  position: relative;\r\n  height: 100vh;\r\n  width: 100%;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -1096,7 +1096,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".Content-module__root__1kx2a {\n  position: relative;\n  left: 0;\n  right: 0;\n  top: 0;\n  min-height: 600px;\n}\n\n.Content-module__wrap__1nNoV {\n  position: absolute;\n  top: 128px;\n  padding: 0 150px;\n}", "",{"version":3,"sources":["webpack://src/components/Content/Content.module.scss","webpack://src/@scss/variables.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,OAAA;EACA,QAAA;EACA,MAAA;EACA,iBAAA;AADF;;AAIA;EACE,kBAAA;EACA,UCXoB;EDYpB,gBAAA;AADF","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: relative;\r\n  left: 0;\r\n  right: 0;\r\n  top: 0;\r\n  min-height: 600px;\r\n}\r\n\r\n.wrap {\r\n  position: absolute;\r\n  top: $content-padding-top;\r\n  padding: 0 $app-margin;\r\n}\r\n","$header-height: 73px;\r\n$content-padding-top: 128px;\r\n$app-margin: 150px;\r\n\r\n$third: #f5db13;\r\n$primary: #f2b807;\r\n$second: #f28f16;\r\n$danger: #d93e30;\r\n$white: #f2f2f2;\r\n$dark: #212121;\r\n$success: #73d677;\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".Content-module__root__1kx2a {\n  position: relative;\n  display: flex;\n  justify-content: space-between;\n  width: 100%;\n}\n\n.Content-module__wrap__1nNoV {\n  position: relative;\n  padding: 0 100px;\n  width: 100%;\n  top: 0;\n}", "",{"version":3,"sources":["webpack://src/components/Content/Content.module.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,aAAA;EACA,8BAAA;EACA,WAAA;AADF;;AAIA;EACE,kBAAA;EACA,gBAAA;EACA,WAAA;EACA,MAAA;AADF","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  width: 100%;\r\n}\r\n\r\n.wrap {\r\n  position: relative;\r\n  padding: 0 $app-margin;\r\n  width: 100%;\r\n  top: 0;\r\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"root": "Content-module__root__1kx2a",
@@ -1125,7 +1125,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".Footer-module__root__2hEVX {\n  position: absolute;\n  display: flex;\n  justify-content: space-between;\n  bottom: 30px;\n  width: 100%;\n  padding: 0 150px;\n}\n.Footer-module__root__2hEVX p {\n  font-weight: 700;\n}", "",{"version":3,"sources":["webpack://src/components/Footer/Footer.module.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,aAAA;EACA,8BAAA;EACA,YAAA;EACA,WAAA;EACA,gBAAA;AADF;AAGE;EACE,gBAAA;AADJ","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: absolute;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  bottom: 30px;\r\n  width: 100%;\r\n  padding: 0 $app-margin;\r\n\r\n  p {\r\n    font-weight: 700;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".Footer-module__root__2hEVX {\n  position: relative;\n  display: flex;\n  justify-content: space-between;\n  bottom: 65px;\n  width: 100%;\n  padding: 0 100px;\n}\n.Footer-module__root__2hEVX p {\n  font-weight: 700;\n}", "",{"version":3,"sources":["webpack://src/components/Footer/Footer.module.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,aAAA;EACA,8BAAA;EACA,YAAA;EACA,WAAA;EACA,gBAAA;AADF;AAGE;EACE,gBAAA;AADJ","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: space-between;\r\n  bottom: 65px;\r\n  width: 100%;\r\n  padding: 0 $app-margin;\r\n\r\n  p {\r\n    font-weight: 700;\r\n  }\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"root": "Footer-module__root__2hEVX"
@@ -1153,13 +1153,41 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".Header-module__root__35hrx {\n  position: relative;\n  left: 0%;\n  right: 0%;\n  top: 0%;\n  bottom: 0%;\n  background: #f5db13;\n  box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);\n  height: 73px;\n  z-index: 1;\n}\n\n.Header-module__wrap__1A5k_ {\n  padding: 0 150px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: inherit;\n}\n\n.Header-module__menuWrap__cQgQx {\n  display: flex;\n  align-items: center;\n  max-width: 658px;\n  width: 100%;\n  justify-content: space-between;\n}\n\n.Header-module__logo__RPmCm {\n  width: 158px;\n  height: 63px;\n}", "",{"version":3,"sources":["webpack://src/components/Header/Header.module.scss","webpack://src/@scss/variables.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,QAAA;EACA,SAAA;EACA,OAAA;EACA,UAAA;EACA,mBCJM;EDKN,6CAAA;EACA,YCVc;EDWd,UAAA;AADF;;AAIA;EACE,gBAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;EACA,eAAA;AADF;;AAIA;EACE,aAAA;EACA,mBAAA;EACA,gBAAA;EACA,WAAA;EACA,8BAAA;AADF;;AAIA;EACE,YAAA;EACA,YAAA;AADF","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: relative;\r\n  left: 0%;\r\n  right: 0%;\r\n  top: 0%;\r\n  bottom: 0%;\r\n  background: $third;\r\n  box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);\r\n  height: $header-height;\r\n  z-index: 1;\r\n}\r\n\r\n.wrap {\r\n  padding: 0 $app-margin;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  height: inherit;\r\n}\r\n\r\n.menuWrap {\r\n  display: flex;\r\n  align-items: center;\r\n  max-width: 658px;\r\n  width: 100%;\r\n  justify-content: space-between;\r\n}\r\n\r\n.logo {\r\n  width: 158px;\r\n  height: 63px;\r\n}\r\n","$header-height: 73px;\r\n$content-padding-top: 128px;\r\n$app-margin: 150px;\r\n\r\n$third: #f5db13;\r\n$primary: #f2b807;\r\n$second: #f28f16;\r\n$danger: #d93e30;\r\n$white: #f2f2f2;\r\n$dark: #212121;\r\n$success: #73d677;\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".Header-module__root__35hrx {\n  position: relative;\n  left: 0%;\n  right: 0%;\n  top: 0%;\n  bottom: 0%;\n  background: #f5db13;\n  box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);\n  height: 73px;\n  z-index: 1;\n}\n\n.Header-module__wrap__1A5k_ {\n  padding: 0 100px;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: inherit;\n}\n\n.Header-module__menuWrap__cQgQx {\n  display: flex;\n  align-items: center;\n  max-width: 658px;\n  width: 100%;\n  justify-content: space-between;\n}\n\n.Header-module__logo__RPmCm {\n  width: 158px;\n  height: 63px;\n}", "",{"version":3,"sources":["webpack://src/components/Header/Header.module.scss","webpack://src/@scss/variables.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,QAAA;EACA,SAAA;EACA,OAAA;EACA,UAAA;EACA,mBCJM;EDKN,6CAAA;EACA,YCVc;EDWd,UAAA;AADF;;AAIA;EACE,gBAAA;EACA,aAAA;EACA,mBAAA;EACA,8BAAA;EACA,eAAA;AADF;;AAIA;EACE,aAAA;EACA,mBAAA;EACA,gBAAA;EACA,WAAA;EACA,8BAAA;AADF;;AAIA;EACE,YAAA;EACA,YAAA;AADF","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: relative;\r\n  left: 0%;\r\n  right: 0%;\r\n  top: 0%;\r\n  bottom: 0%;\r\n  background: $third;\r\n  box-shadow: 0px 4px 16px rgba(1, 28, 64, 0.2);\r\n  height: $header-height;\r\n  z-index: 1;\r\n}\r\n\r\n.wrap {\r\n  padding: 0 $app-margin;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: space-between;\r\n  height: inherit;\r\n}\r\n\r\n.menuWrap {\r\n  display: flex;\r\n  align-items: center;\r\n  max-width: 658px;\r\n  width: 100%;\r\n  justify-content: space-between;\r\n}\r\n\r\n.logo {\r\n  width: 158px;\r\n  height: 63px;\r\n}\r\n","$header-height: 73px;\r\n$content-padding-top: 128px;\r\n$app-margin: 100px;\r\n\r\n$third: #f5db13;\r\n$primary: #f2b807;\r\n$second: #f28f16;\r\n$danger: #d93e30;\r\n$white: #f2f2f2;\r\n$dark: #212121;\r\n$success: #73d677;\r\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"root": "Header-module__root__35hrx",
 	"wrap": "Header-module__wrap__1A5k_",
 	"menuWrap": "Header-module__menuWrap__cQgQx",
 	"logo": "Header-module__logo__RPmCm"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/components/Input/Input.module.scss":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-modules-typescript-loader?modules!./node_modules/css-loader/dist/cjs.js??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/components/Input/Input.module.scss ***!
+  \********************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".Input-module__root__3Gd9t {\n  background: #F2F2F2;\n  box-shadow: 2px 2px 2px rgba(33, 33, 33, 0.1);\n  border-radius: 40px;\n  position: relative;\n  padding: 8px 20px;\n}\n\n.Input-module__root__3Gd9t input {\n  border: none;\n  background-color: inherit;\n  width: 100%;\n  color: rgba(33, 33, 33, 0.8);\n}\n\n.Input-module__root__3Gd9t input:focus,\n.Input-module__root__3Gd9t input:active {\n  outline: none;\n}", "",{"version":3,"sources":["webpack://src/components/Input/Input.module.scss"],"names":[],"mappings":"AAAA;EACI,mBAAA;EACA,6CAAA;EACA,mBAAA;EACA,kBAAA;EACA,iBAAA;AACJ;;AAEA;EACI,YAAA;EACA,yBAAA;EACA,WAAA;EACA,4BAAA;AACJ;;AAEA;;EAEI,aAAA;AACJ","sourcesContent":[".root {\r\n    background: #F2F2F2;\r\n    box-shadow: 2px 2px 2px rgba(33, 33, 33, 0.1);\r\n    border-radius: 40px;\r\n    position: relative;\r\n    padding: 8px 20px;\r\n}\r\n\r\n.root input {\r\n    border: none;\r\n    background-color: inherit;\r\n    width: 100%;\r\n    color: rgba(33, 33, 33, 0.8);\r\n}\r\n\r\n.root input:focus,\r\n.root input:active {\r\n    outline: none;\r\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"root": "Input-module__root__3Gd9t"
 };
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -1212,7 +1240,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".Parallax-module__root__2o5a0 {\n  width: 793px;\n  height: 680px;\n  position: relative;\n}\n\n.Parallax-module__smallPokeBall__ap5Nx {\n  position: absolute;\n  top: 1%;\n  left: 1%;\n}\n\n.Parallax-module__cloud__29wz_ {\n  position: absolute;\n  left: 12.31%;\n  bottom: 39.22%;\n}\n\n.Parallax-module__cloudBig__3qsMl {\n  position: absolute;\n  left: 49.86%;\n  top: -3%;\n}\n\n.Parallax-module__pokeBall__2inqq {\n  position: absolute;\n  top: 24.38%;\n  right: -12%;\n}\n\n.Parallax-module__pikachu__2PYRQ {\n  position: absolute;\n  top: 0%;\n  left: 4.11%;\n}", "",{"version":3,"sources":["webpack://src/components/Parallax/Parallax.module.scss"],"names":[],"mappings":"AAAA;EACE,YAAA;EACA,aAAA;EACA,kBAAA;AACF;;AAEA;EACE,kBAAA;EACA,OAAA;EACA,QAAA;AACF;;AAEA;EACE,kBAAA;EACA,YAAA;EACA,cAAA;AACF;;AAEA;EACE,kBAAA;EACA,YAAA;EACA,QAAA;AACF;;AAEA;EACE,kBAAA;EACA,WAAA;EACA,WAAA;AACF;;AAEA;EACE,kBAAA;EACA,OAAA;EACA,WAAA;AACF","sourcesContent":[".root {\r\n  width: 793px;\r\n  height: 680px;\r\n  position: relative;\r\n}\r\n\r\n.smallPokeBall {\r\n  position: absolute;\r\n  top: 1%;\r\n  left: 1%;\r\n}\r\n\r\n.cloud {\r\n  position: absolute;\r\n  left: 12.31%;\r\n  bottom: 39.22%;\r\n}\r\n\r\n.cloudBig {\r\n  position: absolute;\r\n  left: 49.86%;\r\n  top: -3%;\r\n}\r\n\r\n.pokeBall {\r\n  position: absolute;\r\n  top: 24.38%;\r\n  right: -12%;\r\n}\r\n\r\n.pikachu {\r\n  position: absolute;\r\n  top: 0%;\r\n  left: 4.11%;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".Parallax-module__root__2o5a0 {\n  width: 793px;\n  height: 100px;\n  position: relative;\n}\n\n.Parallax-module__smallPokeBall__ap5Nx {\n  position: absolute;\n  top: 1%;\n  left: 20%;\n}\n\n.Parallax-module__cloud__29wz_ {\n  position: absolute;\n  left: 32.31%;\n  bottom: 39.22%;\n}\n\n.Parallax-module__cloudBig__3qsMl {\n  position: absolute;\n  left: 69.86%;\n  top: -3%;\n}\n\n.Parallax-module__pokeBall__2inqq {\n  position: absolute;\n  top: 24.38%;\n  right: -12%;\n}\n\n.Parallax-module__pikachu__2PYRQ {\n  position: absolute;\n  top: 0%;\n  left: 21.11%;\n}\n.Parallax-module__pikachu__2PYRQ img {\n  width: 500px;\n}", "",{"version":3,"sources":["webpack://src/components/Parallax/Parallax.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,aAAA;EACA,kBAAA;AACJ;;AAEA;EACI,kBAAA;EACA,OAAA;EACA,SAAA;AACJ;;AAEA;EACI,kBAAA;EACA,YAAA;EACA,cAAA;AACJ;;AAEA;EACI,kBAAA;EACA,YAAA;EACA,QAAA;AACJ;;AAEA;EACI,kBAAA;EACA,WAAA;EACA,WAAA;AACJ;;AAEA;EAEI,kBAAA;EACA,OAAA;EACA,YAAA;AAAJ;AAEI;EACI,YAAA;AAAR","sourcesContent":[".root {\r\n    width: 793px;\r\n    height: 100px;\r\n    position: relative;\r\n}\r\n\r\n.smallPokeBall {\r\n    position: absolute;\r\n    top: 1%;\r\n    left: 20%;\r\n}\r\n\r\n.cloud {\r\n    position: absolute;\r\n    left: 32.31%;\r\n    bottom: 39.22%;\r\n}\r\n\r\n.cloudBig {\r\n    position: absolute;\r\n    left: 69.86%;\r\n    top: -3%;\r\n}\r\n\r\n.pokeBall {\r\n    position: absolute;\r\n    top: 24.38%;\r\n    right: -12%;\r\n}\r\n\r\n.pikachu {\r\n\r\n    position: absolute;\r\n    top: 0%;\r\n    left: 21.11%;\r\n\r\n    img {\r\n        width: 500px;\r\n    }\r\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"root": "Parallax-module__root__2o5a0",
@@ -1245,7 +1273,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".Tab-module__menuLink__2I1Zg {\n  cursor: pointer;\n  font-size: 25px;\n  line-height: 29px;\n  color: #212121;\n  text-decoration: none;\n  position: relative;\n}\n.Tab-module__menuLink__2I1Zg:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  bottom: -8px;\n  height: 1px;\n  width: 1%;\n  background: #212121;\n  border: 1px solid #212121;\n  border-radius: 6px;\n  opacity: 0;\n  left: 50%;\n  transform: translate(-50%, 0);\n  transition: opacity, width ease-in-out 0.25s;\n}\n.Tab-module__menuLink__2I1Zg:hover:after, .Tab-module__menuLink__2I1Zg.Tab-module__activeLink__3LgO5:after {\n  width: 100%;\n  opacity: 1;\n}", "",{"version":3,"sources":["webpack://src/components/Tab/Tab.module.scss","webpack://src/@scss/variables.scss"],"names":[],"mappings":"AAEA;EACE,eAAA;EAEA,eAAA;EACA,iBAAA;EACA,cCEK;EDDL,qBAAA;EACA,kBAAA;AAFF;AAIE;EACE,WAAA;EACA,cAAA;EACA,kBAAA;EACA,YAAA;EACA,WAAA;EACA,SAAA;EACA,mBCTG;EDUH,yBAAA;EACA,kBAAA;EACA,UAAA;EACA,SAAA;EACA,6BAAA;EACA,4CAAA;AAFJ;AAOI;EACE,WAAA;EACA,UAAA;AALN","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.menuLink {\r\n  cursor: pointer;\r\n\r\n  font-size: 25px;\r\n  line-height: 29px;\r\n  color: $dark;\r\n  text-decoration: none;\r\n  position: relative;\r\n\r\n  &:after {\r\n    content: '';\r\n    display: block;\r\n    position: absolute;\r\n    bottom: -8px;\r\n    height: 1px;\r\n    width: 1%;\r\n    background: $dark;\r\n    border: 1px solid $dark;\r\n    border-radius: 6px;\r\n    opacity: 0;\r\n    left: 50%;\r\n    transform: translate(-50%, 0);\r\n    transition: opacity, width ease-in-out 0.25s;\r\n  }\r\n\r\n  &:hover,\r\n  &.activeLink {\r\n    &:after {\r\n      width: 100%;\r\n      opacity: 1;\r\n    }\r\n  }\r\n}\r\n","$header-height: 73px;\r\n$content-padding-top: 128px;\r\n$app-margin: 150px;\r\n\r\n$third: #f5db13;\r\n$primary: #f2b807;\r\n$second: #f28f16;\r\n$danger: #d93e30;\r\n$white: #f2f2f2;\r\n$dark: #212121;\r\n$success: #73d677;\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".Tab-module__menuLink__2I1Zg {\n  cursor: pointer;\n  font-size: 25px;\n  line-height: 29px;\n  color: #212121;\n  text-decoration: none;\n  position: relative;\n}\n.Tab-module__menuLink__2I1Zg:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  bottom: -8px;\n  height: 1px;\n  width: 1%;\n  background: #212121;\n  border: 1px solid #212121;\n  border-radius: 6px;\n  opacity: 0;\n  left: 50%;\n  transform: translate(-50%, 0);\n  transition: opacity, width ease-in-out 0.25s;\n}\n.Tab-module__menuLink__2I1Zg:hover:after, .Tab-module__menuLink__2I1Zg.Tab-module__activeLink__3LgO5:after {\n  width: 100%;\n  opacity: 1;\n}", "",{"version":3,"sources":["webpack://src/components/Tab/Tab.module.scss","webpack://src/@scss/variables.scss"],"names":[],"mappings":"AAEA;EACE,eAAA;EAEA,eAAA;EACA,iBAAA;EACA,cCEK;EDDL,qBAAA;EACA,kBAAA;AAFF;AAIE;EACE,WAAA;EACA,cAAA;EACA,kBAAA;EACA,YAAA;EACA,WAAA;EACA,SAAA;EACA,mBCTG;EDUH,yBAAA;EACA,kBAAA;EACA,UAAA;EACA,SAAA;EACA,6BAAA;EACA,4CAAA;AAFJ;AAOI;EACE,WAAA;EACA,UAAA;AALN","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.menuLink {\r\n  cursor: pointer;\r\n\r\n  font-size: 25px;\r\n  line-height: 29px;\r\n  color: $dark;\r\n  text-decoration: none;\r\n  position: relative;\r\n\r\n  &:after {\r\n    content: '';\r\n    display: block;\r\n    position: absolute;\r\n    bottom: -8px;\r\n    height: 1px;\r\n    width: 1%;\r\n    background: $dark;\r\n    border: 1px solid $dark;\r\n    border-radius: 6px;\r\n    opacity: 0;\r\n    left: 50%;\r\n    transform: translate(-50%, 0);\r\n    transition: opacity, width ease-in-out 0.25s;\r\n  }\r\n\r\n  &:hover,\r\n  &.activeLink {\r\n    &:after {\r\n      width: 100%;\r\n      opacity: 1;\r\n    }\r\n  }\r\n}\r\n","$header-height: 73px;\r\n$content-padding-top: 128px;\r\n$app-margin: 100px;\r\n\r\n$third: #f5db13;\r\n$primary: #f2b807;\r\n$second: #f28f16;\r\n$danger: #d93e30;\r\n$white: #f2f2f2;\r\n$dark: #212121;\r\n$success: #73d677;\r\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"menuLink": "Tab-module__menuLink__2I1Zg",
@@ -1302,7 +1330,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".EmptyPage-module__root__3T6SQ {\n  color: inherit;\n}", "",{"version":3,"sources":["webpack://src/pages/Empty/EmptyPage.module.scss"],"names":[],"mappings":"AAAA;EACE,cAAA;AACF","sourcesContent":[".root {\r\n  color: inherit;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".EmptyPage-module__root__3T6SQ {\n  position: relative;\n  min-height: 100vh;\n  width: 100%;\n}", "",{"version":3,"sources":["webpack://src/pages/Empty/EmptyPage.module.scss"],"names":[],"mappings":"AAAA;EACE,kBAAA;EACA,iBAAA;EACA,WAAA;AACF","sourcesContent":[".root {\r\n  position: relative;\r\n  min-height: 100vh;\r\n  width: 100%;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"root": "EmptyPage-module__root__3T6SQ"
@@ -1330,39 +1358,11 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".Home-module__root__ibUWl {\n  position: relative;\n  min-height: 100vh;\n  background: linear-gradient(180deg, #f5db13 0%, #f2b807 100%);\n}\n\n.Home-module__contentParallax__22T6K {\n  position: absolute;\n  top: 0;\n  right: 0;\n}", "",{"version":3,"sources":["webpack://src/pages/Home/Home.module.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,iBAAA;EACA,6DAAA;AADF;;AAIA;EACE,kBAAA;EACA,MAAA;EACA,QAAA;AADF","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: relative;\r\n  min-height: 100vh;\r\n  background: linear-gradient(180deg, $third 0%, $primary 100%);\r\n}\r\n\r\n.contentParallax {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".Home-module__root__ibUWl {\n  position: relative;\n  min-height: 100vh;\n  background: linear-gradient(180deg, #f5db13 0%, #f2b807 100%);\n  width: 100%;\n}\n\n.Home-module__contentParallax__22T6K {\n  position: absolute;\n  top: 0;\n  right: 0;\n}", "",{"version":3,"sources":["webpack://src/pages/Home/Home.module.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,iBAAA;EACA,6DAAA;EACA,WAAA;AADF;;AAIA;EACE,kBAAA;EACA,MAAA;EACA,QAAA;AADF","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: relative;\r\n  min-height: 100vh;\r\n  background: linear-gradient(180deg, $third 0%, $primary 100%);\r\n  width: 100%;\r\n}\r\n\r\n.contentParallax {\r\n  position: absolute;\r\n  top: 0;\r\n  right: 0;\r\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
 	"root": "Home-module__root__ibUWl",
 	"contentParallax": "Home-module__contentParallax__22T6K"
-};
-/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/pages/Legendaries/Legendaries.module.scss":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-modules-typescript-loader?modules!./node_modules/css-loader/dist/cjs.js??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/pages/Legendaries/Legendaries.module.scss ***!
-  \***************************************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-// Imports
-
-
-var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
-// Module
-___CSS_LOADER_EXPORT___.push([module.i, ".Legendaries-module__root__2iQxs {\n  color: inherit;\n}", "",{"version":3,"sources":["webpack://src/pages/Legendaries/Legendaries.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;AACJ","sourcesContent":[".root {\r\n    color: inherit;\r\n}"],"sourceRoot":""}]);
-// Exports
-___CSS_LOADER_EXPORT___.locals = {
-	"root": "Legendaries-module__root__2iQxs"
 };
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -1387,10 +1387,111 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
 // Module
-___CSS_LOADER_EXPORT___.push([module.i, ".Pokedex-module__root__19xly {\n  position: relative;\n  min-height: 100vh;\n  background: linear-gradient(180deg, #ffffff 30.32%, #f5f5f5 100%);\n}", "",{"version":3,"sources":["webpack://src/pages/Pokedex/Pokedex.module.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,iBAAA;EACA,iEAAA;AADF","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: relative;\r\n  min-height: 100vh;\r\n  background: linear-gradient(180deg, #ffffff 30.32%, #f5f5f5 100%);\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.i, ".Pokedex-module__root__19xly {\n  position: relative;\n  min-height: 100vh;\n  background: linear-gradient(180deg, #ffffff 30.32%, #f5f5f5 100%);\n}\n\n.Pokedex-module__root_title__2GMeh {\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://src/pages/Pokedex/Pokedex.module.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,iBAAA;EACA,iEAAA;AADF;;AAIA;EACE,kBAAA;AADF","sourcesContent":["@import '../../@scss/variables.scss';\r\n\r\n.root {\r\n  position: relative;\r\n  min-height: 100vh;\r\n  background: linear-gradient(180deg, #ffffff 30.32%, #f5f5f5 100%);\r\n}\r\n\r\n.root_title {\r\n  text-align: center;\r\n}"],"sourceRoot":""}]);
 // Exports
 ___CSS_LOADER_EXPORT___.locals = {
-	"root": "Pokedex-module__root__19xly"
+	"root": "Pokedex-module__root__19xly",
+	"root_title": "Pokedex-module__root_title__2GMeh"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/pages/Pokedex/PokemonCard/PokemonCard.module.scss":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-modules-typescript-loader?modules!./node_modules/css-loader/dist/cjs.js??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/pages/Pokedex/PokemonCard/PokemonCard.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".PokemonCard-module__root__2axc8 {\n  width: 351px;\n  height: 136px;\n  box-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);\n  background: #F6F7F9;\n  border-radius: 8px;\n  overflow: hidden;\n  position: relative;\n  margin-bottom: 45px;\n  cursor: pointer;\n  transition: all ease-in-out 0.15s;\n}\n.PokemonCard-module__root__2axc8:hover {\n  transform: scale(1.03);\n  transition: all ease-in-out 0s;\n}\n\n.PokemonCard-module__infoWrap__P4Csx {\n  position: absolute;\n  z-index: 1;\n  width: 150px;\n  top: -25px;\n  left: 25px;\n}\n\n.PokemonCard-module__titleName__1f85s {\n  margin-bottom: 12px;\n  text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);\n}\n\n.PokemonCard-module__statWrap__16LQy {\n  display: flex;\n  margin-bottom: 12px;\n}\n\n.PokemonCard-module__statItem__2s_lq {\n  font-style: normal;\n  font-weight: normal;\n  font-size: 12px;\n  line-height: 14px;\n  text-align: center;\n  color: #4B4B4B;\n  margin-right: 12px;\n}\n.PokemonCard-module__statItem__2s_lq:last-child {\n  margin-right: 0;\n}\n\n.PokemonCard-module__statValue__3S_am {\n  width: 36px;\n  height: 36px;\n  border: 3px solid #212121;\n  border-radius: 50%;\n  overflow: hidden;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 15px;\n  line-height: 18px;\n  color: #212121;\n  margin: 0 auto 8px;\n}\n\n.PokemonCard-module__pictureWrap__1AwJV {\n  width: 232px;\n  height: 100%;\n  background: linear-gradient(270deg, #ececec 0.15%, #ececec 100%);\n  position: absolute;\n  right: 0;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n.PokemonCard-module__pictureWrap__1AwJV img {\n  width: 80%;\n}\n\n.PokemonCard-module__label__1XiAS {\n  background: #f28f16;\n  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);\n  border-radius: 11px;\n  height: 15px;\n  min-width: 60px;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 12px;\n  line-height: 14px;\n  text-align: center;\n  color: #212121;\n  padding: 0 12px 2px;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  margin-right: 12px;\n}\n.PokemonCard-module__label__1XiAS:last-child {\n  margin-right: 0;\n}\n\n.PokemonCard-module__labelWrap__2OPEf {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n}\n\n.PokemonCard-module__bgPink__3yXy7 {\n  background: linear-gradient(270deg, #F89EAE 0.15%, #F4B5C1 100%);\n}\n\n.PokemonCard-module__bgGrass__3FJlO {\n  background: linear-gradient(270deg, #64D368 0.15%, #64D368 70.88%);\n}\n\n.PokemonCard-module__bgFire__20tAj {\n  background: linear-gradient(270deg, #B33327 0.15%, #D93E30 100%);\n}\n\n.PokemonCard-module__bgWater__Swy0n {\n  background: linear-gradient(270deg, #5BC7FA 0.15%, #35BAFF 100%);\n}\n\n.PokemonCard-module__bgElectric__1G7Bg {\n  background: linear-gradient(270deg, #F2CB07 0.15%, #F2B807 100%);\n}\n\n.PokemonCard-module__bgBug__CxE4i {\n  background: linear-gradient(270deg, #ff9638 0.15%, #b56722 100%);\n}\n\n.PokemonCard-module__bgDefault__1Whu_ {\n  background: linear-gradient(270deg, #ececec 0.15%, #ececec 100%);\n}", "",{"version":3,"sources":["webpack://src/pages/Pokedex/PokemonCard/PokemonCard.module.scss"],"names":[],"mappings":"AAAA;EACI,YAAA;EACA,aAAA;EACA,6CAAA;EACA,mBAAA;EACA,kBAAA;EACA,gBAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,iCAAA;AACJ;AACI;EACI,sBAAA;EACA,8BAAA;AACR;;AAGA;EACI,kBAAA;EACA,UAAA;EACA,YAAA;EACA,UAAA;EACA,UAAA;AAAJ;;AAGA;EACI,mBAAA;EACA,8CAAA;AAAJ;;AAGA;EACI,aAAA;EACA,mBAAA;AAAJ;;AAGA;EACI,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,kBAAA;AAAJ;AAEI;EACI,eAAA;AAAR;;AAIA;EACI,WAAA;EACA,YAAA;EACA,yBAAA;EACA,kBAAA;EACA,gBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,iBAAA;EACA,cAAA;EACA,kBAAA;AADJ;;AAIA;EACI,YAAA;EACA,YAAA;EACA,gEAAA;EACA,kBAAA;EACA,QAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;AADJ;AAGI;EACI,UAAA;AADR;;AAKA;EACI,mBAAA;EACA,kDAAA;EACA,mBAAA;EACA,YAAA;EACA,eAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,iBAAA;EACA,kBAAA;EACA,cAAA;EACA,mBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,kBAAA;AAFJ;AAII;EACI,eAAA;AAFR;;AAMA;EACI,aAAA;EACA,2BAAA;EACA,mBAAA;AAHJ;;AAMA;EACI,gEAAA;AAHJ;;AAMA;EACI,kEAAA;AAHJ;;AAMA;EACI,gEAAA;AAHJ;;AAMA;EACI,gEAAA;AAHJ;;AAMA;EACI,gEAAA;AAHJ;;AAMA;EACI,gEAAA;AAHJ;;AAMA;EACI,gEAAA;AAHJ","sourcesContent":[".root {\r\n    width: 351px;\r\n    height: 136px;\r\n    box-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);\r\n    background: #F6F7F9;\r\n    border-radius: 8px;\r\n    overflow: hidden;\r\n    position: relative;\r\n    margin-bottom: 45px;\r\n    cursor: pointer;\r\n    transition: all ease-in-out .15s;\r\n\r\n    &:hover {\r\n        transform: scale(1.03);\r\n        transition: all ease-in-out 0s;\r\n    }\r\n}\r\n\r\n.infoWrap {\r\n    position: absolute;\r\n    z-index: 1;\r\n    width: 150px;\r\n    top: -25px;\r\n    left: 25px;\r\n}\r\n\r\n.titleName {\r\n    margin-bottom: 12px;\r\n    text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);\r\n}\r\n\r\n.statWrap {\r\n    display: flex;\r\n    margin-bottom: 12px;\r\n}\r\n\r\n.statItem {\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 12px;\r\n    line-height: 14px;\r\n    text-align: center;\r\n    color: #4B4B4B;\r\n    margin-right: 12px;\r\n\r\n    &:last-child {\r\n        margin-right: 0;\r\n    }\r\n}\r\n\r\n.statValue {\r\n    width: 36px;\r\n    height: 36px;\r\n    border: 3px solid #212121;\r\n    border-radius: 50%;\r\n    overflow: hidden;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 15px;\r\n    line-height: 18px;\r\n    color: #212121;\r\n    margin: 0 auto 8px;\r\n}\r\n\r\n.pictureWrap {\r\n    width: 232px;\r\n    height: 100%;\r\n    background: linear-gradient(270deg, #ececec 0.15%, #ececec 100%);\r\n    position: absolute;\r\n    right: 0;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    img {\r\n        width: 80%;\r\n    }\r\n}\r\n\r\n.label {\r\n    background: #f28f16;\r\n    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.18);\r\n    border-radius: 11px;\r\n    height: 15px;\r\n    min-width: 60px;\r\n    font-style: normal;\r\n    font-weight: normal;\r\n    font-size: 12px;\r\n    line-height: 14px;\r\n    text-align: center;\r\n    color: #212121;\r\n    padding: 0 12px 2px;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    margin-right: 12px;\r\n\r\n    &:last-child {\r\n        margin-right: 0;\r\n    }\r\n}\r\n\r\n.labelWrap {\r\n    display: flex;\r\n    justify-content: flex-start;\r\n    align-items: center;\r\n}\r\n\r\n.bgPink {\r\n    background: linear-gradient(270deg, #F89EAE 0.15%, #F4B5C1 100%);\r\n}\r\n\r\n.bgGrass {\r\n    background: linear-gradient(270deg, #64D368 0.15%, #64D368 70.88%);\r\n}\r\n\r\n.bgFire {\r\n    background: linear-gradient(270deg, #B33327 0.15%, #D93E30 100%);\r\n}\r\n\r\n.bgWater {\r\n    background: linear-gradient(270deg, #5BC7FA 0.15%, #35BAFF 100%);\r\n}\r\n\r\n.bgElectric {\r\n    background: linear-gradient(270deg, #F2CB07 0.15%, #F2B807 100%);\r\n}\r\n\r\n.bgBug {\r\n    background: linear-gradient(270deg, #ff9638 0.15%, #b56722 100%);\r\n}\r\n\r\n.bgDefault{\r\n    background: linear-gradient(270deg, #ececec 0.15%, #ececec 100%);\r\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"root": "PokemonCard-module__root__2axc8",
+	"infoWrap": "PokemonCard-module__infoWrap__P4Csx",
+	"titleName": "PokemonCard-module__titleName__1f85s",
+	"statWrap": "PokemonCard-module__statWrap__16LQy",
+	"statItem": "PokemonCard-module__statItem__2s_lq",
+	"statValue": "PokemonCard-module__statValue__3S_am",
+	"pictureWrap": "PokemonCard-module__pictureWrap__1AwJV",
+	"label": "PokemonCard-module__label__1XiAS",
+	"labelWrap": "PokemonCard-module__labelWrap__2OPEf",
+	"bgPink": "PokemonCard-module__bgPink__3yXy7",
+	"bgGrass": "PokemonCard-module__bgGrass__3FJlO",
+	"bgFire": "PokemonCard-module__bgFire__20tAj",
+	"bgWater": "PokemonCard-module__bgWater__Swy0n",
+	"bgElectric": "PokemonCard-module__bgElectric__1G7Bg",
+	"bgBug": "PokemonCard-module__bgBug__CxE4i",
+	"bgDefault": "PokemonCard-module__bgDefault__1Whu_"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/pages/Pokedex/PokemonContainer/PokemonContainer.module.scss":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-modules-typescript-loader?modules!./node_modules/css-loader/dist/cjs.js??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/pages/Pokedex/PokemonContainer/PokemonContainer.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".PokemonContainer-module__inputBox__1-p2P {\n  margin-top: 20px;\n  margin-bottom: 20px;\n}\n\n.PokemonContainer-module__textBox__1lrdu {\n  text-align: center;\n}", "",{"version":3,"sources":["webpack://src/pages/Pokedex/PokemonContainer/PokemonContainer.module.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,mBAAA;AACJ;;AAEA;EACI,kBAAA;AACJ","sourcesContent":[".inputBox{\r\n    margin-top: 20px;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.textBox {\r\n    text-align: center;\r\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"inputBox": "PokemonContainer-module__inputBox__1-p2P",
+	"textBox": "PokemonContainer-module__textBox__1lrdu"
+};
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/pages/Pokedex/PokemonList/PokemonList.module.scss":
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-modules-typescript-loader?modules!./node_modules/css-loader/dist/cjs.js??ref--6-2!./node_modules/sass-loader/dist/cjs.js!./src/pages/Pokedex/PokemonList/PokemonList.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/cssWithMappingToString.js */ "./node_modules/css-loader/dist/runtime/cssWithMappingToString.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default.a);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".PokemonList-module__root__26m2h {\n  margin: 30px 0;\n  display: flex;\n  justify-content: space-around;\n  flex-wrap: wrap;\n}", "",{"version":3,"sources":["webpack://src/pages/Pokedex/PokemonList/PokemonList.module.scss"],"names":[],"mappings":"AAAA;EACI,cAAA;EACA,aAAA;EACA,6BAAA;EACA,eAAA;AACJ","sourcesContent":[".root{\r\n    margin: 30px 0;\r\n    display: flex;\r\n    justify-content: space-around;\r\n    flex-wrap: wrap;\r\n}"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"root": "PokemonList-module__root__26m2h"
 };
 /* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
 
@@ -40686,17 +40787,6 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
@@ -40720,37 +40810,19 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-var mock_service_1 = __importDefault(__webpack_require__(/*! ../Services/mock-service */ "./src/components/Services/mock-service.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 var Header_1 = __importDefault(__webpack_require__(/*! ../Header */ "./src/components/Header/index.ts"));
 var Footer_1 = __importDefault(__webpack_require__(/*! ../Footer */ "./src/components/Footer/index.ts"));
-var Empty_1 = __importDefault(__webpack_require__(/*! ../../pages/Empty */ "./src/pages/Empty/index.tsx"));
 var hookrouter_1 = __webpack_require__(/*! hookrouter */ "./node_modules/hookrouter/dist/index.js");
-var routes_1 = __importDefault(__webpack_require__(/*! ../../routes */ "./src/routes.tsx"));
+var routes_1 = __importStar(__webpack_require__(/*! ../../routes */ "./src/routes.tsx"));
+var Empty_1 = __importDefault(__webpack_require__(/*! ../../pages/Empty */ "./src/pages/Empty/index.tsx"));
 var App = function () {
     var routeResult = hookrouter_1.useRoutes(routes_1.default);
-    var initialState = {
-        activePage: 'Home',
-        tabs: [],
-    };
-    var _a = react_1.useState(initialState), state = _a[0], setState = _a[1];
-    react_1.useEffect(function () {
-        mock_service_1.default().then(function (data) {
-            return setState(function (prevState) {
-                return __assign(__assign({}, prevState), { tabs: data.tabs });
-            });
-        });
-    }, []);
-    var setPageInStore = function (page) {
-        setState(function (prevState) {
-            return __assign(__assign({}, prevState), { activePage: page });
-        });
-    };
-    return (react_1.default.createElement("div", null,
-        react_1.default.createElement(Header_1.default, __assign({}, state, { setPageInStore: setPageInStore })),
-        routeResult || react_1.default.createElement(Empty_1.default, null),
-        react_1.default.createElement(Footer_1.default, null)));
-    +-32;
+    hookrouter_1.useRedirect('/', routes_1.LinkEnum.HOME);
+    return routeResult ? (react_1.default.createElement(react_1.default.Fragment, null,
+        react_1.default.createElement(Header_1.default, null),
+        routeResult,
+        react_1.default.createElement(Footer_1.default, null))) : (react_1.default.createElement(Empty_1.default, null));
 };
 exports.default = App;
 
@@ -40833,14 +40905,14 @@ var radium_1 = __importDefault(__webpack_require__(/*! radium */ "./node_modules
 var Button_module_scss_1 = __importDefault(__webpack_require__(/*! ./Button.module.scss */ "./src/components/Button/Button.module.scss"));
 var Buttons_1 = __importDefault(__webpack_require__(/*! ../../ui/Buttons */ "./src/ui/Buttons.tsx"));
 var Button = function (props) {
-    var children = props.children, _a = props.design, design = _a === void 0 ? 'primary' : _a, _b = props.size, size = _b === void 0 ? 'normal' : _b, _c = props.isAbsoluteWidth, isAbsoluteWidth = _c === void 0 ? false : _c, onClick = props.onClick;
+    var children = props.children, _a = props.design, design = _a === void 0 ? 'primary' : _a, _b = props.size, size = _b === void 0 ? 'm' : _b, _c = props.isAbsoluteWidth, isAbsoluteWidth = _c === void 0 ? false : _c, _d = props.position, position = _d === void 0 ? 'left' : _d, onClick = props.onClick;
     var buttonWidth = isAbsoluteWidth ? Buttons_1.default.isAbsoluteWidth : null;
     var buttonStyle = __assign(__assign(__assign({}, Buttons_1.default.design[design]), Buttons_1.default.size[size]), buttonWidth);
     return (react_1.default.createElement("button", { type: "button", className: Button_module_scss_1.default.root, style: buttonStyle, onClick: onClick }, children));
 };
 Button.defaultProps = {
     design: 'primary',
-    size: 'normal',
+    size: 'm',
 };
 exports.default = radium_1.default(Button);
 
@@ -41054,15 +41126,15 @@ var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/r
 var Tab_1 = __importDefault(__webpack_require__(/*! ../Tab */ "./src/components/Tab/index.ts"));
 var Header_module_scss_1 = __importDefault(__webpack_require__(/*! ./Header.module.scss */ "./src/components/Header/Header.module.scss"));
 var Logo_svg_1 = __webpack_require__(/*! ./assets/Logo.svg */ "./src/components/Header/assets/Logo.svg");
-var Header = function (props) {
-    var tabs = props.tabs, activePage = props.activePage, setPageInStore = props.setPageInStore;
+var routes_1 = __webpack_require__(/*! ../../routes */ "./src/routes.tsx");
+var Header = function () {
     return (react_1.default.createElement("div", { className: Header_module_scss_1.default.root },
         react_1.default.createElement("div", { className: Header_module_scss_1.default.wrap },
             react_1.default.createElement("div", { className: Header_module_scss_1.default.logo },
                 react_1.default.createElement(Logo_svg_1.ReactComponent, null)),
-            react_1.default.createElement("div", { className: Header_module_scss_1.default.menuWrap }, tabs.map(function (tab, i) { return (react_1.default.createElement(Tab_1.default, __assign({ key: tab.id }, tab, { activePage: activePage, setPageInStore: setPageInStore }))); })))));
+            react_1.default.createElement("div", { className: Header_module_scss_1.default.menuWrap }, routes_1.GENERAL_MENU.map(function (tab) { return (react_1.default.createElement(Tab_1.default, __assign({ key: tab.title }, tab))); })))));
 };
-exports.default = Header;
+exports.default = react_1.default.memo(Header);
 
 
 /***/ }),
@@ -41313,6 +41385,59 @@ exports.default = Heading;
 
 /***/ }),
 
+/***/ "./src/components/Input/Input.module.scss":
+/*!************************************************!*\
+  !*** ./src/components/Input/Input.module.scss ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_Input_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/css-modules-typescript-loader?modules!../../../node_modules/css-loader/dist/cjs.js??ref--6-2!../../../node_modules/sass-loader/dist/cjs.js!./Input.module.scss */ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/components/Input/Input.module.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_Input_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_Input_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./src/components/Input/index.tsx":
+/*!****************************************!*\
+  !*** ./src/components/Input/index.tsx ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var Input_module_scss_1 = __importDefault(__webpack_require__(/*! ./Input.module.scss */ "./src/components/Input/Input.module.scss"));
+var Input = function (props) {
+    var value = props.value, handleOnChange = props.handleOnChange;
+    return (react_1.default.createElement("div", { className: Input_module_scss_1.default.root },
+        react_1.default.createElement("input", { type: "text", value: value, onChange: handleOnChange })));
+};
+exports.default = Input;
+
+
+/***/ }),
+
 /***/ "./src/components/Layout/Layout.module.scss":
 /*!**************************************************!*\
   !*** ./src/components/Layout/Layout.module.scss ***!
@@ -41528,76 +41653,6 @@ exports.default = Parallax;
 
 /***/ }),
 
-/***/ "./src/components/Services/mock-service.js":
-/*!*************************************************!*\
-  !*** ./src/components/Services/mock-service.js ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var mocks_1 = __importDefault(__webpack_require__(/*! ./mocks */ "./src/components/Services/mocks.js"));
-var getData = function () {
-    return new Promise(function (resolve) {
-        setTimeout(function () {
-            resolve(mocks_1.default.data);
-        }, 200);
-    });
-};
-exports.default = getData;
-
-
-/***/ }),
-
-/***/ "./src/components/Services/mocks.js":
-/*!******************************************!*\
-  !*** ./src/components/Services/mocks.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-Object.defineProperty(exports, "__esModule", { value: true });
-var tabs = [
-    {
-        id: 1,
-        value: 'Home',
-        link: '/home',
-    },
-    {
-        id: 2,
-        value: 'Pokedex',
-        link: '/pokedex',
-    },
-    {
-        id: 3,
-        value: 'Legendaries',
-        link: '/legendaries',
-    },
-    {
-        id: 4,
-        value: 'Documentation',
-        link: '/documentation',
-    },
-];
-var data = {
-    tabs: tabs,
-};
-var mock = {
-    success: true,
-    data: data,
-};
-exports.default = mock;
-
-
-/***/ }),
-
 /***/ "./src/components/Tab/Tab.module.scss":
 /*!********************************************!*\
   !*** ./src/components/Tab/Tab.module.scss ***!
@@ -41642,12 +41697,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 var hookrouter_1 = __webpack_require__(/*! hookrouter */ "./node_modules/hookrouter/dist/index.js");
 var Tab_module_scss_1 = __importDefault(__webpack_require__(/*! ./Tab.module.scss */ "./src/components/Tab/Tab.module.scss"));
+var hookrouter_2 = __webpack_require__(/*! hookrouter */ "./node_modules/hookrouter/dist/index.js");
 var Tab = function (props) {
-    var value = props.value, link = props.link, activePage = props.activePage;
-    var linkStyle = activePage === value ? Tab_module_scss_1.default.menuLink + " " + Tab_module_scss_1.default.activeLink : Tab_module_scss_1.default.menuLink;
-    return (react_1.default.createElement(hookrouter_1.A, { href: link, className: linkStyle }, value));
+    var path = hookrouter_2.usePath();
+    var title = props.title, link = props.link;
+    var linkStyle = path === link ? Tab_module_scss_1.default.menuLink + " " + Tab_module_scss_1.default.activeLink : Tab_module_scss_1.default.menuLink;
+    return (react_1.default.createElement(hookrouter_1.A, { href: link, className: linkStyle }, title));
 };
-exports.default = Tab;
+exports.default = react_1.default.memo(Tab);
 
 
 /***/ }),
@@ -41667,6 +41724,400 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var Tab_1 = __importDefault(__webpack_require__(/*! ./Tab */ "./src/components/Tab/Tab.tsx"));
 exports.default = Tab_1.default;
+
+
+/***/ }),
+
+/***/ "./src/components/Text/index.tsx":
+/*!***************************************!*\
+  !*** ./src/components/Text/index.tsx ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __rest = (this && this.__rest) || function (s, e) {
+    var t = {};
+    for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0)
+        t[p] = s[p];
+    if (s != null && typeof Object.getOwnPropertySymbols === "function")
+        for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+            if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i]))
+                t[p[i]] = s[p[i]];
+        }
+    return t;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var Typography_1 = __webpack_require__(/*! ../../ui/Typography */ "./src/ui/Typography.tsx");
+var Text = function (props) {
+    var children = props.children, _a = props.design, design = _a === void 0 ? 'default' : _a, _b = props.type, type = _b === void 0 ? 'p' : _b, _c = props.size, size = _c === void 0 ? 'm' : _c, _d = props.textTransform, textTransform = _d === void 0 ? 'none' : _d, attrs = __rest(props, ["children", "design", "type", "size", "textTransform"]);
+    var TextStyle = __assign(__assign(__assign({}, Typography_1.ParagraphTheme.design[design]), Typography_1.ParagraphTheme.size[size]), { textTransform: props.textTransform });
+    var T = function (_a) {
+        var children = _a.children, props = __rest(_a, ["children"]);
+        return react_1.default.createElement("" + type, props, children);
+    };
+    return (react_1.default.createElement(T, __assign({ style: TextStyle }, attrs), children));
+};
+exports.default = Text;
+
+
+/***/ }),
+
+/***/ "./src/components/utils/src/hookHelpers/useData/useData.ts":
+/*!*****************************************************************!*\
+  !*** ./src/components/utils/src/hookHelpers/useData/useData.ts ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var request_1 = __importDefault(__webpack_require__(/*! ../../request */ "./src/components/utils/src/request.ts"));
+var useData = function (endPoint, query, deps) {
+    if (deps === void 0) { deps = []; }
+    var _a = react_1.useState(null), data = _a[0], setData = _a[1];
+    var _b = react_1.useState(true), isLoading = _b[0], setIsLoading = _b[1];
+    var _c = react_1.useState(false), isError = _c[0], setIsError = _c[1];
+    react_1.useEffect(function () {
+        var getData = function () { return __awaiter(void 0, void 0, void 0, function () {
+            var data_1, e_1;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 2, 3, 4]);
+                        return [4 /*yield*/, request_1.default(endPoint, query)];
+                    case 1:
+                        data_1 = _a.sent();
+                        setData(data_1);
+                        return [3 /*break*/, 4];
+                    case 2:
+                        e_1 = _a.sent();
+                        setIsError(e_1);
+                        return [3 /*break*/, 4];
+                    case 3:
+                        setIsLoading(false);
+                        return [7 /*endfinally*/];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        }); };
+        getData();
+    }, deps);
+    return { data: data, isLoading: isLoading, isError: isError };
+};
+exports.default = useData;
+
+
+/***/ }),
+
+/***/ "./src/components/utils/src/hookHelpers/useDebounce/useDebounce.ts":
+/*!*************************************************************************!*\
+  !*** ./src/components/utils/src/hookHelpers/useDebounce/useDebounce.ts ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var useDebounce = function (value, delay) {
+    var _a = react_1.useState(value), debouncedValue = _a[0], setDebouncedValue = _a[1];
+    react_1.useEffect(function () {
+        var handler = setTimeout(function () { return setDebouncedValue(value); }, delay);
+        return function () {
+            clearInterval(handler);
+        };
+    }, [value]);
+    return debouncedValue;
+};
+exports.default = useDebounce;
+
+
+/***/ }),
+
+/***/ "./src/components/utils/src/request.ts":
+/*!*********************************************!*\
+  !*** ./src/components/utils/src/request.ts ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var url_1 = __importDefault(__webpack_require__(/*! url */ "./node_modules/url/url.js"));
+var getUrlWithParamsConfig_1 = __importDefault(__webpack_require__(/*! ./tools/getUrlWithParamsConfig */ "./src/components/utils/src/tools/getUrlWithParamsConfig/index.ts"));
+function req(endPoint, query) {
+    return __awaiter(this, void 0, void 0, function () {
+        var uri;
+        return __generator(this, function (_a) {
+            switch (_a.label) {
+                case 0:
+                    uri = url_1.default.format(getUrlWithParamsConfig_1.default(endPoint, query));
+                    return [4 /*yield*/, fetch(uri).then(function (res) { return res.json(); })];
+                case 1: return [2 /*return*/, _a.sent()];
+            }
+        });
+    });
+}
+exports.default = req;
+
+
+/***/ }),
+
+/***/ "./src/components/utils/src/tools/dist/index.js":
+/*!******************************************************!*\
+  !*** ./src/components/utils/src/tools/dist/index.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+exports.__esModule = true;
+exports.toCapitalizeFirstLetter = exports.setBgCardColor = void 0;
+exports.setBgCardColor = function (arr) {
+    for (var i = 0; i <= arr.length - 1; i++) {
+        switch (arr[i]) {
+            case 'grass':
+                return 'bgGrass';
+            case 'poison':
+                return 'bgGrass';
+            case 'fire':
+                return 'bgFire';
+            case 'bug':
+                return 'bgBug';
+            case 'water':
+                return 'bgWater';
+            case 'normal':
+                return 'bgWater';
+            case 'electric':
+                return 'bgElectric';
+            default:
+                return 'bgDefault';
+        }
+    }
+    return 'bgDefault';
+};
+exports.toCapitalizeFirstLetter = function (str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
+
+/***/ }),
+
+/***/ "./src/components/utils/src/tools/getUrlWithParamsConfig/index.ts":
+/*!************************************************************************!*\
+  !*** ./src/components/utils/src/tools/getUrlWithParamsConfig/index.ts ***!
+  \************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var config_1 = __importDefault(__webpack_require__(/*! ../../../../../config */ "./src/config/index.ts"));
+var getUrlWithParamsConfig = function (endpointConfig, query) {
+    var url = __assign(__assign(__assign({}, config_1.default.client.server), config_1.default.client.endpoint[endpointConfig].uri), { query: {} });
+    var pathname = Object.keys(query).reduce(function (acc, val) {
+        if (acc.indexOf("{" + val + "}") !== -1) {
+            var result = acc.replace("{" + val + "}", query[val]);
+            delete query[val];
+            return result;
+        }
+        return acc;
+    }, url.pathname);
+    url.pathname = pathname;
+    url.query = __assign({}, query);
+    return url;
+};
+exports.default = getUrlWithParamsConfig;
+
+
+/***/ }),
+
+/***/ "./src/components/utils/src/tools/index.tsx":
+/*!**************************************************!*\
+  !*** ./src/components/utils/src/tools/index.tsx ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.toCapitalizeFirstLetter = exports.setBgCardColor = void 0;
+exports.setBgCardColor = function (arr) {
+    for (var i = 0; i <= arr.length - 1; i++) {
+        switch (arr[i]) {
+            case 'grass':
+                return 'bgGrass';
+            case 'poison':
+                return 'bgGrass';
+            case 'fire':
+                return 'bgFire';
+            case 'bug':
+                return 'bgBug';
+            case 'water':
+                return 'bgWater';
+            case 'normal':
+                return 'bgWater';
+            case 'electric':
+                return 'bgElectric';
+            default:
+                return 'bgDefault';
+        }
+    }
+    return 'bgDefault';
+};
+exports.toCapitalizeFirstLetter = function (str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+};
+
+
+/***/ }),
+
+/***/ "./src/config/index.ts":
+/*!*****************************!*\
+  !*** ./src/config/index.ts ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+var config = {
+    client: {
+        server: { protocol: 'http', host: 'zar.hosthot.ru' },
+        endpoint: {
+            getPokemons: {
+                method: 'GET',
+                uri: {
+                    pathname: '/api/v1/pokemons',
+                },
+            },
+            getPokemon: {
+                method: 'GET',
+                uri: {
+                    pathname: '/api/v1/pokemon/{id}',
+                },
+            }
+        },
+    },
+};
+exports.default = config;
 
 
 /***/ }),
@@ -41767,6 +42218,7 @@ var Documentation_module_scss_1 = __importDefault(__webpack_require__(/*! ./Docu
 var DocumentationPage = function () {
     return (react_1.default.createElement("div", { className: Documentation_module_scss_1.default.root }, "DocumentationPage"));
 };
+DocumentationPage.defaultProps = {};
 exports.default = DocumentationPage;
 
 
@@ -41814,9 +42266,23 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var Button_1 = __importDefault(__webpack_require__(/*! ../../components/Button */ "./src/components/Button/index.tsx"));
 var EmptyPage_module_scss_1 = __importDefault(__webpack_require__(/*! ./EmptyPage.module.scss */ "./src/pages/Empty/EmptyPage.module.scss"));
-var EmptyPage = function () {
-    return react_1.default.createElement("div", { className: EmptyPage_module_scss_1.default.root }, "Empty");
+var hookrouter_1 = __webpack_require__(/*! hookrouter */ "./node_modules/hookrouter/dist/index.js");
+var routes_1 = __webpack_require__(/*! ../../routes */ "./src/routes.tsx");
+var Content_1 = __importDefault(__webpack_require__(/*! ../../components/Content */ "./src/components/Content/index.ts"));
+var Text_1 = __importDefault(__webpack_require__(/*! ../../components/Text */ "./src/components/Text/index.tsx"));
+var EmptyPage = function (_a) {
+    var title = _a.title;
+    return (react_1.default.createElement("div", { className: EmptyPage_module_scss_1.default.root },
+        react_1.default.createElement(Content_1.default, null,
+            react_1.default.createElement(Text_1.default, { type: "p", size: "xl", design: "default", position: "center" },
+                "Page not found ",
+                title),
+            react_1.default.createElement(Button_1.default, { design: "accent", size: "m", onClick: function () { return hookrouter_1.navigate(routes_1.LinkEnum.HOME); } }, "Return"))));
+};
+EmptyPage.defaultProps = {
+    title: ':(',
 };
 exports.default = EmptyPage;
 
@@ -41868,72 +42334,32 @@ var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/r
 var Content_1 = __importDefault(__webpack_require__(/*! ../../components/Content */ "./src/components/Content/index.ts"));
 var Home_module_scss_1 = __importDefault(__webpack_require__(/*! ./Home.module.scss */ "./src/pages/Home/Home.module.scss"));
 var Button_1 = __importDefault(__webpack_require__(/*! ../../components/Button */ "./src/components/Button/index.tsx"));
-var Heading_1 = __importDefault(__webpack_require__(/*! ../../components/Heading */ "./src/components/Heading/index.tsx"));
+var Text_1 = __importDefault(__webpack_require__(/*! ../../components/Text */ "./src/components/Text/index.tsx"));
 var Parallax_1 = __importDefault(__webpack_require__(/*! ../../components/Parallax */ "./src/components/Parallax/index.tsx"));
+var hookrouter_1 = __webpack_require__(/*! hookrouter */ "./node_modules/hookrouter/dist/index.js");
+var routes_1 = __webpack_require__(/*! ../../routes */ "./src/routes.tsx");
 var HomePage = function (props) {
     return (react_1.default.createElement("div", { className: Home_module_scss_1.default.root },
         react_1.default.createElement(Content_1.default, null,
-            react_1.default.createElement(Heading_1.default, { type: "h3" },
+            react_1.default.createElement(Text_1.default, { type: "span", size: "xxl" },
                 react_1.default.createElement("b", null, "Find"),
-                " all your favotite ",
+                " all your",
+                react_1.default.createElement("br", null),
+                "favotite",
+                react_1.default.createElement("br", null),
                 react_1.default.createElement("b", null, "Pokemon")),
-            react_1.default.createElement("p", null, "You can know the type of Pokemon, its strengths, disadvantages and abilities"),
-            react_1.default.createElement(Button_1.default, { design: "success", size: "normal" }, "See pokemons")),
-        react_1.default.createElement("div", { className: Home_module_scss_1.default.contentParallax },
-            react_1.default.createElement(Parallax_1.default, null))));
+            react_1.default.createElement(Text_1.default, { type: "p", size: "l" },
+                "You can know the type of Pokemon,",
+                react_1.default.createElement("br", null),
+                "its strengths, disadvantages and",
+                react_1.default.createElement("br", null),
+                "abilities"),
+            react_1.default.createElement(Button_1.default, { design: "success", size: "m", onClick: function () { return hookrouter_1.navigate(routes_1.LinkEnum.POKEDEX); } }, "See pokemons"),
+            ' ',
+            react_1.default.createElement("div", { className: Home_module_scss_1.default.contentParallax },
+                react_1.default.createElement(Parallax_1.default, null)))));
 };
 exports.default = HomePage;
-
-
-/***/ }),
-
-/***/ "./src/pages/Legendaries/Legendaries.module.scss":
-/*!*******************************************************!*\
-  !*** ./src/pages/Legendaries/Legendaries.module.scss ***!
-  \*******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_Legendaries_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/css-modules-typescript-loader?modules!../../../node_modules/css-loader/dist/cjs.js??ref--6-2!../../../node_modules/sass-loader/dist/cjs.js!./Legendaries.module.scss */ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/pages/Legendaries/Legendaries.module.scss");
-
-            
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_Legendaries_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_Legendaries_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
-
-/***/ }),
-
-/***/ "./src/pages/Legendaries/index.tsx":
-/*!*****************************************!*\
-  !*** ./src/pages/Legendaries/index.tsx ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-var Legendaries_module_scss_1 = __importDefault(__webpack_require__(/*! ./Legendaries.module.scss */ "./src/pages/Legendaries/Legendaries.module.scss"));
-var Legendaries = function () {
-    return (react_1.default.createElement("div", { className: Legendaries_module_scss_1.default.root }, "Legendaries"));
-};
-exports.default = Legendaries;
 
 
 /***/ }),
@@ -41966,6 +42392,246 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./src/pages/Pokedex/PokemonCard/PokemonCard.module.scss":
+/*!***************************************************************!*\
+  !*** ./src/pages/Pokedex/PokemonCard/PokemonCard.module.scss ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_PokemonCard_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../node_modules/css-modules-typescript-loader?modules!../../../../node_modules/css-loader/dist/cjs.js??ref--6-2!../../../../node_modules/sass-loader/dist/cjs.js!./PokemonCard.module.scss */ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/pages/Pokedex/PokemonCard/PokemonCard.module.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_PokemonCard_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_PokemonCard_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./src/pages/Pokedex/PokemonCard/index.tsx":
+/*!*************************************************!*\
+  !*** ./src/pages/Pokedex/PokemonCard/index.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var Heading_1 = __importDefault(__webpack_require__(/*! ../../../components/Heading */ "./src/components/Heading/index.tsx"));
+var PokemonCard_module_scss_1 = __importDefault(__webpack_require__(/*! ./PokemonCard.module.scss */ "./src/pages/Pokedex/PokemonCard/PokemonCard.module.scss"));
+var tools_1 = __webpack_require__(/*! ../../../components/utils/src/tools */ "./src/components/utils/src/tools/index.tsx");
+var classnames_1 = __importDefault(__webpack_require__(/*! classnames */ "./node_modules/classnames/index.js"));
+var dist_1 = __webpack_require__(/*! ../../../components/utils/src/tools/dist */ "./src/components/utils/src/tools/dist/index.js");
+var PokemonCard = function (props) {
+    var id = props.id, name_clean = props.name_clean, stats = props.stats, types = props.types, img = props.img;
+    var bgCardStyle = classnames_1.default(PokemonCard_module_scss_1.default['pictureWrap'], PokemonCard_module_scss_1.default[tools_1.setBgCardColor(types)]);
+    return (react_1.default.createElement("div", { className: PokemonCard_module_scss_1.default.root },
+        react_1.default.createElement("div", { className: PokemonCard_module_scss_1.default.infoWrap },
+            react_1.default.createElement(Heading_1.default, { type: "h5", className: PokemonCard_module_scss_1.default.titleName }, dist_1.toCapitalizeFirstLetter(name_clean)),
+            react_1.default.createElement("div", { className: PokemonCard_module_scss_1.default.statWrap },
+                react_1.default.createElement("div", { className: PokemonCard_module_scss_1.default.statItem },
+                    react_1.default.createElement("div", { className: PokemonCard_module_scss_1.default.statValue }, stats.attack),
+                    "Attack"),
+                react_1.default.createElement("div", { className: PokemonCard_module_scss_1.default.statItem },
+                    react_1.default.createElement("div", { className: PokemonCard_module_scss_1.default.statValue }, stats.defense),
+                    "Defense")),
+            react_1.default.createElement("div", { className: PokemonCard_module_scss_1.default.labelWrap }, types.map(function (type, i) { return (react_1.default.createElement("span", { key: "" + name_clean + id + i, className: PokemonCard_module_scss_1.default.label }, dist_1.toCapitalizeFirstLetter(type))); }))),
+        react_1.default.createElement("div", { className: bgCardStyle },
+            react_1.default.createElement("img", { src: img, alt: name_clean }))));
+};
+PokemonCard.defaultProps = {};
+exports.default = PokemonCard;
+
+
+/***/ }),
+
+/***/ "./src/pages/Pokedex/PokemonContainer/PokemonContainer.module.scss":
+/*!*************************************************************************!*\
+  !*** ./src/pages/Pokedex/PokemonContainer/PokemonContainer.module.scss ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_PokemonContainer_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../node_modules/css-modules-typescript-loader?modules!../../../../node_modules/css-loader/dist/cjs.js??ref--6-2!../../../../node_modules/sass-loader/dist/cjs.js!./PokemonContainer.module.scss */ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/pages/Pokedex/PokemonContainer/PokemonContainer.module.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_PokemonContainer_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_PokemonContainer_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./src/pages/Pokedex/PokemonContainer/index.tsx":
+/*!******************************************************!*\
+  !*** ./src/pages/Pokedex/PokemonContainer/index.tsx ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var PokemonList_1 = __importDefault(__webpack_require__(/*! ../PokemonList */ "./src/pages/Pokedex/PokemonList/index.tsx"));
+var Input_1 = __importDefault(__webpack_require__(/*! ../../../components/Input */ "./src/components/Input/index.tsx"));
+var Text_1 = __importDefault(__webpack_require__(/*! ../../../components/Text */ "./src/components/Text/index.tsx"));
+var useData_1 = __importDefault(__webpack_require__(/*! ../../../components/utils/src/hookHelpers/useData/useData */ "./src/components/utils/src/hookHelpers/useData/useData.ts"));
+var useDebounce_1 = __importDefault(__webpack_require__(/*! ../../../components/utils/src/hookHelpers/useDebounce/useDebounce */ "./src/components/utils/src/hookHelpers/useDebounce/useDebounce.ts"));
+var PokemonContainer_module_scss_1 = __importDefault(__webpack_require__(/*! ./PokemonContainer.module.scss */ "./src/pages/Pokedex/PokemonContainer/PokemonContainer.module.scss"));
+var PokemonContainer = function () {
+    var _a = react_1.useState(''), searchValue = _a[0], setSearchValue = _a[1];
+    var _b = react_1.useState({}), query = _b[0], setQuery = _b[1];
+    var debouncedValue = useDebounce_1.default(searchValue, 500);
+    var _c = useData_1.default('getPokemons', query, [debouncedValue]), isLoading = _c.isLoading, isError = _c.isError, data = _c.data;
+    var handleSearchChange = function (event) {
+        setSearchValue(event.target.value);
+        setQuery(function (state) { return (__assign(__assign({}, state), { name: event.target.value })); });
+    };
+    return isLoading ? (react_1.default.createElement("div", null, "Loading...")) : isError ? (react_1.default.createElement("div", null, "Something has wrong...")) : (react_1.default.createElement("div", null,
+        react_1.default.createElement("div", { className: PokemonContainer_module_scss_1.default.textBox },
+            react_1.default.createElement(Text_1.default, { type: "p", size: "xl", design: "default" },
+                data && data.total,
+                " ",
+                react_1.default.createElement("b", null, "Pokemons"),
+                " for your to choose your favorite")),
+        react_1.default.createElement("div", { className: PokemonContainer_module_scss_1.default.inputBox },
+            react_1.default.createElement(Input_1.default, { value: searchValue, handleOnChange: handleSearchChange })),
+        data && react_1.default.createElement(PokemonList_1.default, __assign({}, data))));
+};
+exports.default = PokemonContainer;
+
+
+/***/ }),
+
+/***/ "./src/pages/Pokedex/PokemonList/PokemonList.module.scss":
+/*!***************************************************************!*\
+  !*** ./src/pages/Pokedex/PokemonList/PokemonList.module.scss ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_PokemonList_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../node_modules/css-modules-typescript-loader?modules!../../../../node_modules/css-loader/dist/cjs.js??ref--6-2!../../../../node_modules/sass-loader/dist/cjs.js!./PokemonList.module.scss */ "./node_modules/css-modules-typescript-loader/index.js?modules!./node_modules/css-loader/dist/cjs.js?!./node_modules/sass-loader/dist/cjs.js!./src/pages/Pokedex/PokemonList/PokemonList.module.scss");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_PokemonList_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (_node_modules_css_modules_typescript_loader_index_js_modules_node_modules_css_loader_dist_cjs_js_ref_6_2_node_modules_sass_loader_dist_cjs_js_PokemonList_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./src/pages/Pokedex/PokemonList/index.tsx":
+/*!*************************************************!*\
+  !*** ./src/pages/Pokedex/PokemonList/index.tsx ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var PokemonCard_1 = __importDefault(__webpack_require__(/*! ../PokemonCard */ "./src/pages/Pokedex/PokemonCard/index.tsx"));
+var PokemonList_module_scss_1 = __importDefault(__webpack_require__(/*! ./PokemonList.module.scss */ "./src/pages/Pokedex/PokemonList/PokemonList.module.scss"));
+var PokemonList = function (props) {
+    var pokemons = props.pokemons;
+    {
+        return (react_1.default.createElement("div", { className: PokemonList_module_scss_1.default.root }, pokemons.map(function (pokemon) { return (react_1.default.createElement(PokemonCard_1.default, __assign({ key: pokemon.id }, pokemon))); })));
+    }
+};
+PokemonList.defaultProps = {};
+exports.default = PokemonList;
+
+
+/***/ }),
+
 /***/ "./src/pages/Pokedex/index.tsx":
 /*!*************************************!*\
   !*** ./src/pages/Pokedex/index.tsx ***!
@@ -41982,17 +42648,43 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 var Pokedex_module_scss_1 = __importDefault(__webpack_require__(/*! ./Pokedex.module.scss */ "./src/pages/Pokedex/Pokedex.module.scss"));
 var Content_1 = __importDefault(__webpack_require__(/*! ../../components/Content */ "./src/components/Content/index.ts"));
-var Heading_1 = __importDefault(__webpack_require__(/*! ../../components/Heading */ "./src/components/Heading/index.tsx"));
+var PokemonContainer_1 = __importDefault(__webpack_require__(/*! ./PokemonContainer */ "./src/pages/Pokedex/PokemonContainer/index.tsx"));
 var PokedexPage = function () {
     return (react_1.default.createElement("div", { className: Pokedex_module_scss_1.default.root },
         react_1.default.createElement(Content_1.default, null,
-            react_1.default.createElement(Heading_1.default, { type: "h3", design: "default" },
-                "800 ",
-                react_1.default.createElement("b", null, "pokemons"),
-                " for your to choose your favorite"),
-            react_1.default.createElement("p", null, "You can know the type of Pokemon, its strengths, disadvantages and abilities"))));
+            react_1.default.createElement(PokemonContainer_1.default, null))));
 };
 exports.default = PokedexPage;
+
+
+/***/ }),
+
+/***/ "./src/pages/Pokemon/index.tsx":
+/*!*************************************!*\
+  !*** ./src/pages/Pokemon/index.tsx ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var useData_1 = __importDefault(__webpack_require__(/*! ../../components/utils/src/hookHelpers/useData/useData */ "./src/components/utils/src/hookHelpers/useData/useData.ts"));
+var Pokemon = function (_a) {
+    var id = _a.id;
+    var _b = useData_1.default('getPokemon', { id: id }), data = _b.data, isLoading = _b.isLoading;
+    if (isLoading) {
+        return react_1.default.createElement("div", null, "...Spinner");
+    }
+    return react_1.default.createElement("div", null,
+        "This is pokemon equal ", data === null || data === void 0 ? void 0 :
+        data.name_clean);
+};
+exports.default = Pokemon;
 
 
 /***/ }),
@@ -42006,42 +42698,68 @@ exports.default = PokedexPage;
 
 "use strict";
 
+var __spreadArrays = (this && this.__spreadArrays) || function () {
+    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+    for (var r = Array(s), k = 0, i = 0; i < il; i++)
+        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
+            r[k] = a[j];
+    return r;
+};
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.GENERAL_MENU = exports.LinkEnum = void 0;
 var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 var Home_1 = __importDefault(__webpack_require__(/*! ./pages/Home */ "./src/pages/Home/index.tsx"));
 var Pokedex_1 = __importDefault(__webpack_require__(/*! ./pages/Pokedex */ "./src/pages/Pokedex/index.tsx"));
-var Legendaries_1 = __importDefault(__webpack_require__(/*! ./pages/Legendaries */ "./src/pages/Legendaries/index.tsx"));
 var Documentation_1 = __importDefault(__webpack_require__(/*! ./pages/Documentation */ "./src/pages/Documentation/index.tsx"));
-var MENU = [
+var Empty_1 = __importDefault(__webpack_require__(/*! ./pages/Empty */ "./src/pages/Empty/index.tsx"));
+var Pokemon_1 = __importDefault(__webpack_require__(/*! ./pages/Pokemon */ "./src/pages/Pokemon/index.tsx"));
+var LinkEnum;
+(function (LinkEnum) {
+    LinkEnum["HOME"] = "/home";
+    LinkEnum["POKEDEX"] = "/pokedex";
+    LinkEnum["LEGENDARIES"] = "/legendaries";
+    LinkEnum["DOCUMENTATION"] = "/documentation";
+    LinkEnum["POKEMON"] = "/pokedex/:id";
+})(LinkEnum = exports.LinkEnum || (exports.LinkEnum = {}));
+exports.GENERAL_MENU = [
     {
         title: 'Home',
-        link: '/home',
+        link: LinkEnum.HOME,
         component: function () { return react_1.default.createElement(Home_1.default, null); },
     },
     {
         title: 'Pokedex',
-        link: '/pokedex',
+        link: LinkEnum.POKEDEX,
         component: function () { return react_1.default.createElement(Pokedex_1.default, null); },
     },
     {
         title: 'Legendaries',
-        link: '/legendaries',
-        component: function () { return react_1.default.createElement(Legendaries_1.default, null); },
+        link: LinkEnum.LEGENDARIES,
+        component: function () { return react_1.default.createElement(Empty_1.default, null); },
     },
     {
         title: 'Documentation',
-        link: '/documentation',
+        link: LinkEnum.DOCUMENTATION,
         component: function () { return react_1.default.createElement(Documentation_1.default, null); },
     },
 ];
-var routes = {
-    '/': function () { return react_1.default.createElement(Home_1.default, null); },
-    '/home': function () { return react_1.default.createElement(Home_1.default, null); },
-    '/pokedex': function () { return react_1.default.createElement(Pokedex_1.default, null); },
-};
+var SECOND_ROUTES = [
+    {
+        title: 'Pokemon',
+        link: LinkEnum.POKEMON,
+        component: function (_a) {
+            var id = _a.id;
+            return react_1.default.createElement(Pokemon_1.default, { id: id });
+        },
+    },
+];
+var routes = __spreadArrays(exports.GENERAL_MENU, SECOND_ROUTES).reduce(function (acc, item) {
+    acc[item.link] = item.component;
+    return acc;
+}, {});
 exports.default = routes;
 
 
@@ -42059,21 +42777,21 @@ exports.default = routes;
 Object.defineProperty(exports, "__esModule", { value: true });
 var ButtonsTheme = {
     design: {
-        accent: {
+        primary: {
             color: '#212121',
-            background: '#f2b807',
+            background: '#F2CB07',
         },
         success: {
             color: '#212121',
             background: '#73D677',
         },
-        primary: {
+        accent: {
             color: '#212121',
             background: '#07D6F2',
         },
     },
     size: {
-        small: {
+        xs: {
             height: '15.88px',
             fontSize: '12px',
             lineHeight: '14,06px',
@@ -42084,7 +42802,7 @@ var ButtonsTheme = {
                 paddingBottom: '9px',
             },
         },
-        normal: {
+        m: {
             width: '231px',
             height: '66px',
             fontSize: '23px',
@@ -42133,10 +42851,14 @@ exports.HeadingTheme = {
 exports.ParagraphTheme = {
     design: {
         default: { color: '#000000' },
+        primary: { color: '#FDFDFD' },
     },
     size: {
-        fontSize: '16px'
-    }
+        m: { fontSize: '16px' },
+        l: { fontSize: '32px' },
+        xl: { fontSize: '48px' },
+        xxl: { fontSize: '72px' },
+    },
 };
 
 
