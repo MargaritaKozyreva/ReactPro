@@ -4,6 +4,7 @@ import style from './PokemonCard.module.scss';
 import { setBgCardColor } from '../../../components/utils/src/tools';
 import cx from 'classnames';
 import * as s from '../../../@types/store/structures';
+import { toCapitalizeFirstLetter } from '../../../components/utils/src/tools/dist';
 
 
 const PokemonCard: React.FC<s.dataProps> = (props: s.dataProps): JSX.Element => {
@@ -14,7 +15,7 @@ const PokemonCard: React.FC<s.dataProps> = (props: s.dataProps): JSX.Element => 
     <div className={style.root}>
       <div className={style.infoWrap}>
         <Heading type="h5" className={style.titleName}>
-          {name_clean.toLowerCase()}
+          {toCapitalizeFirstLetter(name_clean)}
         </Heading>
         <div className={style.statWrap}>
           <div className={style.statItem}>
@@ -29,7 +30,7 @@ const PokemonCard: React.FC<s.dataProps> = (props: s.dataProps): JSX.Element => 
         <div className={style.labelWrap}>
           {types.map((type, i) => (
             <span key={`${name_clean}${id}${i}`} className={style.label}>
-              {type}
+              {toCapitalizeFirstLetter(type)}
             </span>
           ))}
         </div>
