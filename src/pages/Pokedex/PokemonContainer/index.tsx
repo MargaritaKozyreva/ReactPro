@@ -1,22 +1,30 @@
-import React, { useState, useMemo, ChangeEvent } from 'react';
+import React, { useState, ChangeEvent } from 'react';
 import PokemonList from '../PokemonList';
 import Input from '../../../components/Input';
 import Text from '../../../components/Text';
-import useData from '../../../components/utils/src/hookHelpers/useData/getData';
+import { IPokemons } from '../../../components/interface/pokemons';
+
+import useData from '../../../components/utils/src/hookHelpers/useData/useData';
+import useDebounce from '../../../components/utils/src/hookHelpers/useDebounce/useDebounce';
 
 import style from './PokemonContainer.module.scss';
-import s from '../../../@types/store';
+
+interface IQuery {
+  name?: string;
+}
 
 const PokemonContainer: React.FC = (): JSX.Element => {
   const [searchValue, setSearchValue] = useState<string>('');
-  const [query, setQuery] = useState({});
+  const [query, setQuery] = useState<IQuery>({});
 
-  const { isLoading, isError, data }: s.StoreState = useData('getPokemons', query, [searchValue]);
+  const debouncedValue = useDebounce(searchValue, 500)
+
+  const { isLoading, isError, data } = useData<IPokemons>('getPokemons', query, [debouncedValue]);
 
   const handleSearchChange = (event: ChangeEvent<HTMLInputElement>): void => {
     setSearchValue(event.target.value);
-    setQuery((s) => ({
-      ...s,
+    setQuery((state: IQuery) => ({
+      ...state,
       name: event.target.value,
     }));
   };
@@ -29,7 +37,7 @@ const PokemonContainer: React.FC = (): JSX.Element => {
     <div>
       <div className={style.textBox}>
         <Text type="p" size="xl" design="default">
-          {data.total} <b>Pokemons</b> for your to choose your favorite
+          {data && data.total} <b>Pokemons</b> for your to choose your favorite
         </Text>
       </div>
 
@@ -37,7 +45,7 @@ const PokemonContainer: React.FC = (): JSX.Element => {
         <Input value={searchValue} handleOnChange={handleSearchChange} />
       </div>
 
-      <PokemonList {...data} />
+      {data && <PokemonList {...data} />}
     </div>
   );
 };
